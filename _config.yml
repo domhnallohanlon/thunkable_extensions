@@ -13,17 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Thunkable Extensions Directory
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This directory is developed and maintained by members of the 
+  [Thunkable community](http://community.thunkable.com). Our intention
+  is to show you how to add extensions to your Thunkable apps and to highlight 
+  examples of extensions in action. If you have any questions, please ask over 
+  in the community. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+twitter_username: thunkable
+github_username:  thunkable
+facebook_username: thunkable
 # Build settings
 markdown: kramdown
 theme: minima

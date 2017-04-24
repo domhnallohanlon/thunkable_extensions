@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This directory is developed and maintained by members of the [Thunkable Community](http://community.thunkable.com). 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Our intention is to show you how to add extensions to your Thunkable apps and to highlight examples of extensions in action. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+If you have any questions, please ask over in the [community](http://community.thunkable.com).
+
+### Credits
+
+This site was developed by:
+
+
