@@ -88,7 +88,7 @@ url: "/thunkable_extensions" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/domhnallohanlon/thunkable_extensions"
 email: "hello@thunkable.com"
 #disqus: "alembic-1"
-avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "../assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
