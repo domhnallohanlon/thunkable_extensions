@@ -3,7 +3,7 @@
 
 ⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Contents
 - [About](#about)
