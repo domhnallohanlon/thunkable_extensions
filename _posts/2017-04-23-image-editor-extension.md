@@ -1,6 +1,5 @@
 ---
 title: Image Editor Extension
-category: community-extensions nmd-apps
 feature_image: "https://unsplash.it/1200/400?image=0"
 ---
 

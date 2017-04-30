@@ -1,11 +1,10 @@
 ---
 title: Colours Extension
-category: community-extensions helios
 feature_text: |
-  The History of the Alembic tool
+  A guide to using the Colours Extension
 ---
 
-Developed by Helios, this extension allows you to...
+Developed by Helios, this extension allows you to convert #HEX colours to (R G B) and vice versa. It also allows you to lighten, darken and mix colours. 
 
 <!-- more -->
 

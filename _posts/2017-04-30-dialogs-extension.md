@@ -1,8 +1,7 @@
 ---
 title: Dialogs Extension
-category: community-extensions helios
 feature_text: |
-  The History of the Alembic tool
+  How to use the Dialogs Extension
 ---
 
 Developed by Helios, this extension allows you to show mew types of dialog boxes in your apps.
