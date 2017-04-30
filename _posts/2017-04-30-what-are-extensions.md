@@ -10,9 +10,8 @@ Not sure what an extension is? Read this to learn more about what extensions are
 
 ## Overview
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Thunkable is limited in the number of components it has to offer and users may want to use components in their apps which Thunkable doesn't provide. This is the reason extension components were introduced - so that users can create their own components and use them in their apps. Extensions <b>currently</b> only allow non-visible components to be added to apps which means functions that work without the user being able to see it on the screen will work.
+
+Post written by:
+<a href="community.thunkable.com/users/conor/">Conor</a>
+Thunkable Community Moderator
