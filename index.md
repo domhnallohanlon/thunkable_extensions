@@ -17,7 +17,7 @@ If you have any questions, please ask over in the [community](http://community.t
 
 ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
-#### NMD Extensions 
+#### [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
 - [Simple Mathematics Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#1)
 - [Body Mass Index Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#2)
 - [QR Code Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#3)
