@@ -13,7 +13,7 @@ The Thunkable Extensions Directory is developed and maintained by members of the
 
 If you have any questions, please ask over in the [community](http://community.thunkable.com).
 
-<!-- {% include button.html text="Fork on GitHub" icon="github" link="https://github.com/daviddarnes/alembic" %}  -->
+
 
 ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
