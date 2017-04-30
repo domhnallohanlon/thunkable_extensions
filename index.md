@@ -1,7 +1,7 @@
 ---
 title: Thunkable Extensions Directory
 feature_text: |
-  ## <font color="#05bf85">Thunkable Extensions Directory</font>
+  # <font color="#05bf85">Thunkable Extensions Directory</font>
 feature_image: "https://unsplash.it/1300/400?image=8"
 image: "https://unsplash.it/600/400?image=8"
 excerpt: "This directory is developed and maintained by members of the [Thunkable Community](http://community.thunkable.com)
@@ -14,12 +14,9 @@ The Thunkable Extensions Directory is developed and maintained by members of the
 If you have any questions, please ask over in the [community](http://community.thunkable.com).
 <hr />
 
-{% include button.html text="Thunkable Community Extensions" link="http://community.thunkable.com/c/thunkable-extensions" %}
+ ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
-
-<hr />
-
-## [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
+#### [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
 - [Simple Mathematics Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#1)
 - [Body Mass Index Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#2)
 - [QR Code Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#3)
@@ -27,13 +24,11 @@ If you have any questions, please ask over in the [community](http://community.t
 - [Ocr Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#5)
 - [Image Editor Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6)
 
-<hr />
 
 #### Helios' Extensions 
 - [Dialogs Extension](http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios)
 - [Colours Extension](http://community.thunkable.com/t/colours-extension/2513?u=helios)
 
-<hr />
 
 #### Pavitra's Extensions 
 - [Free InAppPurchases Extension](http://community.thunkable.com/t/free-iap-extension/2082?u=pavi2410)
@@ -41,7 +36,6 @@ If you have any questions, please ask over in the [community](http://community.t
 - [Arduino USB Serial Extension](https://groups.google.com/d/msg/mitappinventortest/WZCUtKAfwj0/4Na63LmnAQAJ)
 - [Phone Info Extension](http://community.thunkable.com/t/phone-info-extension/1600?u=pavi2410)
 
-<hr />
 
 #### Sander's Extensions 
 <!-- <small>@Sander0542</small> -->
