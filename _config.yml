@@ -93,12 +93,12 @@ avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, 
 
 # 8. Site navigation
 navigation_header:
-  Home: /
+  Home: thunkable_extensions/
   #Elements: /elements/
-  Examples: /blog/
-  Categories: /categories/
-  Search: /search/
-  About: /about/
+  Examples: thunkable_extensions/blog/
+  Categories: thunkable_extensions/categories/
+  Search: thunkable_extensions/search/
+  About: thunkable_extensions/about/
   #Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
