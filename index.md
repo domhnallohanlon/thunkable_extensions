@@ -76,6 +76,7 @@ If you have any questions, please ask over in the [community](http://community.t
 - [PDF Extension](https://puravidaapps.com/pdf.php)
 - [Settings Extension](https://puravidaapps.com/settings.php)
 - [Take ScreenShot Extension](https://puravidaapps.com/screenshot.php)
+- [Sharing Extension](http://puravidaapps.com/sharing.php)
 - [Speech Recognizer Extension](https://puravidaapps.com/speechRecognizer.php)
 - [SQLite Extension](https://puravidaapps.com/sqlite.php) and [SQLite Addons Extension](https://groups.google.com/d/msg/mitappinventortest/ZjkCYz7RQ5U/ZG0jFM80AgAJ) (by Andres)
 - [Telephony Manager Extension](https://puravidaapps.com/telephonymanager.php)
