@@ -128,6 +128,7 @@ If you have any questions, please ask over in the [community](http://community.t
 - [Motions Trail Extension](http://adf.ly/1hK3nK)
 - [FlashLight Extension](http://adf.ly/1i7UlX)
 - [Notifications v2 Extension](http://adf.ly/1i7XKh)
+- [PhoneCaller Extension](http://adf.ly/1iZIQJ)
 - [Mail Sender Extension](http://adf.ly/1iZD6u)
 - [Wallpaper Extension](http://adf.ly/1iZIec)
 - [Three Dimensional Coordinates Extension](http://adf.ly/1k528C)
@@ -140,4 +141,5 @@ If you have any questions, please ask over in the [community](http://community.t
 - [SMB Manager Extension](https://groups.google.com/d/msg/mitappinventortest/ilbNL4dnZx0/lqmvJEKnAgAJ) - _by: Jörg Hüneburg_
 - [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ) - _by: Andres Daniel_
 - [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ) - _by: Andres Daniel_
+- [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE) - _by: Andres Daniel_
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
