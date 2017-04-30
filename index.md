@@ -25,15 +25,21 @@ If you have any questions, please ask over in the [community](http://community.t
 - [Ocr Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#5)
 - [Image Editor Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6)
 
+<hr />
+
 #### Helios' Extensions 
 - [Dialogs Extension](http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios)
 - [Colours Extension](http://community.thunkable.com/t/colours-extension/2513?u=helios)
+
+<hr />
 
 #### Pavitra's Extensions 
 - [Free InAppPurchases Extension](http://community.thunkable.com/t/free-iap-extension/2082?u=pavi2410)
 - [Root Checker Extension](http://community.thunkable.com/t/root-checker-extension/1587?u=pavi2410)
 - [Arduino USB Serial Extension](https://groups.google.com/d/msg/mitappinventortest/WZCUtKAfwj0/4Na63LmnAQAJ)
 - [Phone Info Extension](http://community.thunkable.com/t/phone-info-extension/1600?u=pavi2410)
+
+<hr />
 
 #### Sander's Extensions 
 <!-- <small>@Sander0542</small> -->
@@ -42,7 +48,6 @@ If you have any questions, please ask over in the [community](http://community.t
 - [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
 
 <hr />
-
 
 ## [Thunkable Team Extensions](http://thunkable.com)
 
