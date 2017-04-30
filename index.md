@@ -1,7 +1,7 @@
 ---
 title: Thunkable Extensions Directory
 feature_text: |
-  ## <font color="#ffffff">Thunkable Extensions Directory</font>
+  ## <font color="#05bf85">Thunkable Extensions Directory</font>
 feature_image: "https://unsplash.it/1300/400?image=8"
 image: "https://unsplash.it/600/400?image=8"
 excerpt: "This directory is developed and maintained by members of the [Thunkable Community](http://community.thunkable.com)
