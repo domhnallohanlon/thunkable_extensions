@@ -10,7 +10,7 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 
 ## Download
 
-{% include button.html text="Download from Developer" link="http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios" %}
+{% include button.html text="Download from Developer" link="http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios" target="_blank" %}
 
 ## Overview
 
