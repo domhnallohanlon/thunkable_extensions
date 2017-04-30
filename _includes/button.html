@@ -1,1 +1,2 @@
-<a class="button" href="{{ include.link }}" title="Button - {{ include.text }}" {% if include.color %}style="background: {{ include.color }}"{% endif %}>{{ include.text }}{% if include.icon %}&nbsp; {% include icon.html id=include.icon %}{% endif %}</a>
+<!-- by default buttons will open in a new tab. Use button_local if you want a button to open a page from this site -->
+<a class="button" target="_blank" href="{{ include.link }}" title="Button - {{ include.text }}" {% if include.color %}style="background: {{ include.color }}"{% endif %}>{{ include.text }}{% if include.icon %}&nbsp; {% include icon.html id=include.icon %}{% endif %}</a>
