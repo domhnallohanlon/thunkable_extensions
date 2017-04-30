@@ -12,10 +12,10 @@ If you have any questions, please ask over in the [community](http://community.t
 The Thunkable Extensions Directory is developed and maintained by members of the [Thunkable Community](http://community.thunkable.com)
 
 If you have any questions, please ask over in the [community](http://community.thunkable.com).
+<hr />
 
+{% include button.html text="Thunkable Community Extensions" link="http://community.thunkable.com/c/thunkable-extensions" %}
 
-
-### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
 <hr />
 
