@@ -14,7 +14,7 @@ The Thunkable Extensions Directory is developed and maintained by members of the
 If you have any questions, please ask over in the [community](http://community.thunkable.com).
 <hr />
 
- ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
+### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
 #### [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
 - [Simple Mathematics Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#1)
