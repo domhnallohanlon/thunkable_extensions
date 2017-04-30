@@ -3,7 +3,7 @@ title: Image Editor Extension
 feature_image: "https://unsplash.it/1200/400?image=0"
 ---
 
-Short description of how this extension works
+Developed by Thunkable Community Member, Mika, this extension allows users to set brightness, tints, watermarks, filters, and much, much more to images from their apps.
 
 
 <!-- more -->
@@ -13,8 +13,6 @@ Short description of how this extension works
 {% include button.html text="Download from Developer" link="https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6" %}
 
 ### Overview
-
-Developed by Thunkable Community Member, Mika, this extension allows you to...
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -4,7 +4,7 @@ feature_text: |
   How to use the Dialogs Extension
 ---
 
-Developed by Helios, this extension allows you to show mew types of dialog boxes in your apps.
+Developed by Helios, this extension allows you to show progress bars, radio list pickers, checkboxes, and more in a dialog box.
 
 <!-- more -->
 
