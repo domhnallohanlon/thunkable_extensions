@@ -13,7 +13,6 @@ Don't know how to add extensions into your app? Read this to get started!
 Extensions are very easy to add to your Thunkable apps - there are only a simple few steps.
 
 #### Step 1
-Navigate to <a href=http://app.thunkable.com>app.Thunkable.com</a> and login using your Google Account.
 <br>
 You should now see a screen with this at the top:
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step2.png" alt="app.thunkable.com">
@@ -36,6 +35,7 @@ Either:
 #### Step 5
 At the left-hand side of the screen, you will see a pallete like this:
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step5.png" alt="pallete">
+<br>
 Select the "Extension" label, you will then see a button that says "<i>Import Extension</i>"
 
 #### Step 6
@@ -44,6 +44,7 @@ Click the "<i>Import Extension</i>" button. You will see a pop-up box like this:
 
 #### Step 7
 If, in Step 4, you downloaded the extension to your computer, click the "Choose File" button.
+<br>
 If you copied the direct link, select the "URL" button in the pop-up and paste the link into the textbox.
 
 #### Step 8
@@ -52,6 +53,7 @@ Click the "Import" button
 #### Step 9
 After clicking the "Import" button, you should see a pop-up asking you to rename the extension.
 I recommend you leave the name as it is and click "OK". You can rename it if you wish to, though.
+<br>
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step9.png">
 
 #### Step 10
