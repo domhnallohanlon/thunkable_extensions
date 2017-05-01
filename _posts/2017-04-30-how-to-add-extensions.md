@@ -13,6 +13,7 @@ Don't know how to add extensions into your app? Read this to get started!
 Extensions are very easy to add to your Thunkable apps - there are only a simple few steps.
 
 #### Step 1
+Navigate to <a href="http://app.thunkable.com">app.thunkable.com</a> and login using your Google Account.
 <br>
 You should now see a screen with this at the top:
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step2.png" alt="app.thunkable.com">
