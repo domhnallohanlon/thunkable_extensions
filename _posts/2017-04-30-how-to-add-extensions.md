@@ -10,7 +10,7 @@ Don't know how to add extensions into your app? Read this to get started!
 
 ## Overview
 
-Extensions are very easy to add to your Thunkable apps - there are only a simple few steps.
+Extensions are very easy to add to your Thunkable apps - there are only a few simple steps.
 
 #### Step 1
 Navigate to <a href="http://app.thunkable.com">app.thunkable.com</a> and login using your Google Account.
@@ -34,8 +34,8 @@ Either:
 </ul>
 
 #### Step 5
-At the left-hand side of the screen, you will see a pallete like this:
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step5.png" alt="pallete">
+At the left-hand side of the screen, you will see a palette like this:
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step5.png" alt="palette">
 <br>
 Select the "Extension" label, you will then see a button that says "<i>Import Extension</i>"
 
@@ -58,7 +58,7 @@ I recommend you leave the name as it is and click "OK". You can rename it if you
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step9.png">
 
 #### Step 10
-Your extension will now show as a component in the pallete.
+Your extension will now show as a component in the palette.
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step10.png">
 
 #### Step 11
@@ -69,6 +69,10 @@ To use the component in the app, do what you would do with any normal component.
 You will now see the extension as a non-visible component in your app.
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step12a.png">
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step12b.png">
+
+<hr />
+The extension used in this post was the <a href="http://community.thunkable.com/t/releasing-the-dialogs-extension/2574/">Dialogs Extension</a> by <a href="http://community.thunkable.com/users/helios">Helios</a>.
+<hr />
 
 Post written by:
 <a href="http://community.thunkable.com/users/conor/">Conor</a>
