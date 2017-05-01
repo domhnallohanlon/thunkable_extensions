@@ -59,7 +59,7 @@ collections:
     output: true
     description: "The AIX Directory" # The post list page content
     feature_text: |
-      Welcome to the blog
+      ## <font color="#05bf85">Welcome to the blog</font>
     #images: 816, 668, 532, 445, 201, 48, 1-9  
     feature_image: "https://unsplash.it/1300/400?image=8"
 
