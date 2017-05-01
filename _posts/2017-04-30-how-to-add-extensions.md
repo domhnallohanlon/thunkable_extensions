@@ -24,7 +24,7 @@ Open an exising project or create a new one.
 To create a new project, click the "Create New App" button at the top of the screen, just under the Thunkabe logo.
 
 #### Step 3
-Find the extension you want to import into your app.
+Find the extension you want to import into your app. There is a full list of Thunkable extensions on our <a href="http://domhnallohanlon.com/thunkable_extensions/">homepage</a>
 
 #### Step 4
 Either:
@@ -41,7 +41,7 @@ Select the "Extension" label, you will then see a button that says "<i>Import Ex
 
 #### Step 6
 Click the "<i>Import Extension</i>" button. You will see a pop-up box like this:
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step5.png">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/how_to_add_extensions/Step6.png">
 
 #### Step 7
 If, in Step 4, you downloaded the extension to your computer, click the "Choose File" button.
