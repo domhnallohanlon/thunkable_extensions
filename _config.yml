@@ -30,7 +30,7 @@ gems:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
@@ -89,7 +89,7 @@ url: "http://domhnallohanlon.com/thunkable_extensions/" # Site url, also used in
 repo: "https://github.com/domhnallohanlon/thunkable_extensions/"
 email: "hello@thunkable.com"
 #disqus: "alembic-1"
-avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "http://domhnallohanlon.com/thunkable_extensions/assets/favicon.ico" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
