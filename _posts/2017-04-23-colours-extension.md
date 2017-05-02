@@ -13,13 +13,48 @@ Developed by Helios, this extension allows you to convert #HEX colours to (R G B
 
 {% include button.html text="Download from Developer" link="http://community.thunkable.com/t/colours-extension/2513?u=helios" %}
 
-## Overview
+The full extension can be dowloaded from the Thunkable community, along with Helios' documentation and sample app.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/install_ce.gif)
+
+
+### HexToRGB {#h2r}
+
+The <span class="block procedure">Colours1.HexToRGB</span> block takes a #HEX colour and converts it into a lisp list in the format (R G B). 
+
+![h2r](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_h2r.png)
+
+Note that you must include the # symbol otherwise the missing character will generate a runtime error such as <code>length=6; regionStart=5; regionLength=2</code>
+
+![err_L6](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/err_l6.png)
+
+### RGBToHEX {#r2h}
+
+The <span class="block procedure">Colours1.RGBToHex</span> block takes a lisp list and converts it to a #HEX format number.
+
+![r2h](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_r2h.png)
+
+### Lighten & Darken {#landd}
+
+Both the lighten and darken blocks require two input aruments. 
+The **colour** input expects a list in the form (R G B), rather than an integer as an input.
+The **amount** input expects an input anywhere between 0 and 1.
+
+The lighten and darken blocks return a (R G B) list, so if you want to apply this as a text or background colour somewhere in your app make sure you pass it through a <span class="block split">make color</span> block, which you can find in the colours category of blocks, but you have to remove the <span class="block list">make a list</span> block first. 
+
+Here are two basic examples of using the lighten and darken procedures.
+![darken](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_darken.png)
+![lighten](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_lighten.png)
+
+### Mix Colours {#mix}
+
+In keeping with the previous blocks, the inputs for this block, <code>ColourA</code> and <code>ColourB</code> are (R G B) lists, and the <code>amount</code> argument accepts a number anywhere between 0 and 1.
+
+The example below shows how use either a default colour or a custom colour as an input and mix them together. 
+
+Again, the return type from this block is a (R G B) list so don't forget to pass it through a <span class="block split">make color</span> block if you want to use it to assign a colour to a component in your design.
+
+![mix](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_mix.png)
+
 
 

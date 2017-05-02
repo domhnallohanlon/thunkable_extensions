@@ -2,7 +2,7 @@
 layout: post
 categories: Design
 title: Image Editor Extension
-image: /assets/images/demo0.jpg
+<!-- image: /assets/images/demo0.jpg -->
 tags: NMDApps Editor
 ---
 
