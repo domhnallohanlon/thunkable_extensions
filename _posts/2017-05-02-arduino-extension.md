@@ -20,7 +20,7 @@ The original aix file can be downloaded from [here](https://groups.google.com/fo
 
 ![Initialize](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/arduino_extension/initialize.png)
 
-![Is Open?](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/arduino_extension/isOpen.png)
+![Is Open](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/arduino_extension/isOpen.png)
 
 
 ### Transmit and Receive Data
