@@ -1,5 +1,5 @@
 ---
 title: Links
 layout: links
-describe: link page
+describe: Links to authors and extension developers
 ---

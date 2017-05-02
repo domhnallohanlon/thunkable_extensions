@@ -1,5 +1,5 @@
 ---
 title: Archive
 layout: archive
-describe: archive page
+describe: Every post we've ever written
 ---

@@ -7,9 +7,9 @@
 
 # Site settings
 title: Thunkable Extensions Directory
-email: therobotfoundry@gmail.com
+#email: therobotfoundry@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Best Jekyll materialize theme
+  A collection of extension resources and guides from the Thunkable community
 baseurl: "/thunkable_extensions" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 # icon

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-describe: about page
+describe: What extensions are and how to install them
 author: Conor
 toc: a
 ---

@@ -1,5 +1,5 @@
 ---
 title: Tags
 layout: tags
-describe: tag page
+describe: Find articles by tag
 ---

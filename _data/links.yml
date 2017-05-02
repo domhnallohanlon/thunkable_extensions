@@ -1,12 +1,14 @@
+#Be careful not to exceede max char count in name or describe
+
 - name: Thunkable
   image: https://lh3.googleusercontent.com/dhI-3jzPxxFTg3ljmcMvxbx-RV_4rNJx7aokuEI0MNZ2g_59QoylUEVzQyYHCHT4O8k=w300
   url: http://thunkable.com
   describe: Drag & Drop Apps
 
-- name: Thunkable Community
+- name: Community
   image: https://lh3.googleusercontent.com/dhI-3jzPxxFTg3ljmcMvxbx-RV_4rNJx7aokuEI0MNZ2g_59QoylUEVzQyYHCHT4O8k=w300
-  url: http://community.thunkable.com
-  describe: The Thunkable Community Forum
+  url: http://community.thunkable.com?u=domhnall
+  describe: The Thunkable Forum
 
 - name: Conor
   image: assets/images/links/c.png
@@ -15,7 +17,7 @@
 
 - name: Diego
   image: assets/images/links/b.png
-  url: https://google.com
+  url: http://community.thunkable.com/users/barreeeiroo/
   describe: About Diego
 
 - name: Domhnall
@@ -28,7 +30,7 @@
   url: https://nmd-apps.jimdo.com/
   describe: Extensions by NMD Apps
 
-- name:  Puravida Apps
+- name:  Puravida
   image: assets/images/M.png
   url: http://puravidaapps.com/extensions.php
-  describe: Extensions by Taifun
+  describe: Taifun Extensions
