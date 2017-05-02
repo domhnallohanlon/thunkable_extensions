@@ -2,8 +2,8 @@
 layout: post
 title: Dialogs Extension
 categories: Design
-feature_text: |
-  How to use the Dialogs Extension
+author: Conor
+tags: Helios Dialogs HEX RGB
 ---
 
 Developed by Helios, this extension allows you to show progress bars, radio list pickers, checkboxes, and more in a dialog box.

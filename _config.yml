@@ -45,8 +45,8 @@ header-bg: /assets/images/bg.png
 # todd
 
 #多个作者
-defaultAuthor: KeJun
-defaultAuthorImage: assets/images/tx.jpg
+defaultAuthor: Domhnall
+defaultAuthorImage: assets/images/links/d.png
 manyAuthors: true
 
 # 是否使用gallery

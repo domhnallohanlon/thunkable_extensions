@@ -2,8 +2,7 @@
 layout: post
 title: Colours Extension
 categories: Design
-feature_text: |
-  A guide to using the Colours Extension
+tags: Helios Colours HEX RGB
 ---
 
 Developed by Helios, this extension allows you to convert #HEX colours to (R G B) and vice versa. It also allows you to lighten, darken and mix colours. 

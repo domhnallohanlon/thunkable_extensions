@@ -3,6 +3,7 @@ layout: post
 categories: Design
 title: Image Editor Extension
 image: /assets/images/demo0.jpg
+tags: NMDApps Editor
 ---
 
 Developed by Thunkable Community Member, Mika, this extension allows users to set brightness, tints, watermarks, filters, and much, much more to images from their apps.

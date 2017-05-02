@@ -4,8 +4,9 @@ title:  "markdown test"
 date:   2017-03-02 10:42:06 +0800
 categories: Jekyll
 image:
-tags: test
+tags: jekyll
 comments: true
+author: Diego
 ---
 该文章用于展示markdown生成的格式。
 
