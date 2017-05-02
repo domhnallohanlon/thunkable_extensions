@@ -68,7 +68,7 @@ Your extension will now show as a component in the palette.
 
 #### Step 11
 To use the component in the app, do what you would do with any normal component. Click and drag the extension into the work area.
-<img src="assets/post_assets/how_to_add_extensions/Step11.png">
+<img src="assets/post_assets/how_to_add_extensions/Step11.gif">
 
 #### Step 12
 You will now see the extension as a non-visible component in your app.
