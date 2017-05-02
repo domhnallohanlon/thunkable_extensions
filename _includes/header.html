@@ -1,0 +1,150 @@
+<!-- 菜单和header -->
+<nav class="nav-extended {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %}">
+  <div class="nav-background">
+    <div class="ea k" style="background-image: url('{{ site.header-bg | prepend: site.baseurl }}');"></div>
+  </div>
+  <div class="nav-wrapper db">
+    <!--移动端菜单按钮-->
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    <!--页面的导航-->
+    <ul class="bt hide-on-med-and-down">
+      {% assign a = page.url | remove:'.html' | append:'.html' %} {% if page.url == a %}
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      {% else %}
+      <li class="k">
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      {% endif %} {% for my_page in site.pages %} {% if my_page.title %} {% if page.url == my_page.url %}
+      <li class="k">
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      </li>
+      {% else %}
+      <li>
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      </li>
+      {% endif %} {% endif %} {% endfor %}
+      <li class="nav-search">
+          <div class="nav-search-wrapper">
+            <div>
+            <input class="cb-search-content" id="cb-search-content" placeholder="文章标题 日期 标签" ><i class="search material-icons">search</i>
+            </div>
+          </div>
+        </li>
+    </ul>
+    <style>
+    </style>
+    <!--页面的标题-->
+    <div class="nav-header de">
+      {% for page in (1..paginator.total_pages) %} {% if page == paginator.page %}
+      <h1>{{ site.title | upcase }}</h1>
+      <div class="ge">{{ site.description }}</div>
+      {% endif %} {% endfor %} {% if page.url == a %}
+      <h1>{{ page.title | upcase}}</h1>
+      {% unless page.describe %}
+      <div class="ge">{{ page.date | date: "%b %-d, %Y" }}</div>
+      {% else %}
+      <div class="ge">{{ page.describe }}</div>
+      {% endunless %}
+      {% else %}
+      <h1>{{ site.title | upcase }}</h1>
+      <div class="ge">{{ site.description }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <!-- 页面内的导航 -->
+  {% if page.url != a %}
+  <div class="categories-wrapper {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %} darken-1">
+    <div class="categories-container">
+      <ul class="categories db">
+        <li class="k"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ site.posts | size }} Posts" href="#all">All</a></li>
+        {% for category in site.categories %}
+        <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ category | last | size }} Posts" href="#{{ category | first }}">{{ category | first }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.url == "/archive.html" %}
+  <div class="categories-wrapper {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %} darken-1">
+    <div class="categories-container">
+      <ul class="categories db">
+        <li class="k"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ site.posts | size }} Posts" href="#all">All</a></li>
+  {% assign postsNum = 0 %}
+  {% for post in site.posts %}
+    {% assign postsNum = postsNum | plus: 1 %}
+    {% assign thisYear = post.date | date: "%Y" %}
+    {% assign prevYear = post.previous.date | date: "%Y" %}
+    {% if thisYear != prevYear %}
+      {% if outYear != thisYear %}
+        {% assign outYear = thisYear %}
+          <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ postsNum }} Posts" href="#{{ outYear }}">{{ outYear }}</a></li>
+      {% endif %}
+    {% assign postsNum = 0 %}
+    {% endif %}
+  {% endfor %}
+        </ul>
+    </div>
+  </div>
+  {% endif %}
+</nav>
+<!--移动端nav-->
+<ul id="slide-out" class="side-nav">
+  <li>
+    <div class="userView {% if site.mobile-bg=="theme-color" %} {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %} {% endif %}">
+      {% if site.mobile-bg != "theme" %}
+      <div class="background">
+              <img style="width:300px;height:160px;" src="{{ site.mobile-bg | prepend: site.baseurl }}">
+      </div>
+      {% else %}
+      <div class="background {% case page.url %}{% when '/' %}{{ site.theme-color.home-color }}{% when '/about.html' %}{{ site.theme-color.about-color }}{% when '/archive.html' %}{{ site.theme-color.archive-color }}{% when '/links.html' %}{{ site.theme-color.links-color }}{% when '/tags.html' %}{{ site.theme-color.tags-color }}{% else %}{{ site.theme-color.default-color }}{% endcase %}">
+        <div class="mobile-background-image" style="background-image: url('{{"/assets/images/bg.png" | prepend: site.baseurl}}');"></div>
+      </div>
+      {% endif %}
+      <a href="{{ site.baseurl }}/"><img class="circle" src="{{ site.mobile-hp | prepend: site.baseurl }}"></a>
+      <a href="#!"><span class="white-text name">{{ site.title }}</span></a>
+      <a href="mailto:{{ site.email }}"><span class="white-text email">{{ site.email }}</span></a>
+    </div>
+  </li>
+  <form action="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" method="get">
+    <div class="input-field">
+      <!--<input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">-->
+      <input class="cb-search-content" type="search" required name="q" placeholder="Search" autocomplete="off">
+      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+      <i class="material-icons">close</i>
+    </div>
+  </form>
+  <section id="search-results" style="display: none;"> </section>
+  <li>
+    <div class="divider"></div>
+  </li>
+  <li><a class="subheader">Pages</a></li>
+  <li><a class="waves-effect tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href="{{ site.baseurl }}/">Home</a></li>
+  {% for my_page in site.pages %} {% if my_page.title %}
+  <li><a class="waves-effect tooltipped" data-position="right" data-delay="50" data-tooltip="{{ my_page.title }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+  {% endif %} {% endfor %}
+  <li>
+    <div class="divider"></div>
+  </li>
+</ul>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <li>
+      <a class="tooltipped" data-position="right" data-delay="50" data-tooltip="{{#date}}{{pubdate}}{{/date}}" href="{% endraw %}{{ site.baseurl }}{% raw %}{{url}}">{{title}}</a>
+    </li>
+  {{/entries}}
+</script>
+<script id="search-results-nav" type="text/mustache">
+    <div class="center">
+  {{#entries}}
+   <ul>
+   <li class="post-list"><a class="waves-effect post-list black-text" data-tooltip="{{#date}}{{pubdate}}{{/date}}" href="{% endraw %}{{ site.baseurl }}{% raw %}{{url}}">{{title}}</a></li>
+   </ul>
+    
+  {{/entries}}
+  </div>
+</script>
+{% endraw %}

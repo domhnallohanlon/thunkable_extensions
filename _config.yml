@@ -1,124 +1,58 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site navigation
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# 1. Files excluded from Jekyll builds
-exclude:
-- README.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- demo/*
+# Site settings
+title: Thunkable Extensions Directory
+email: therobotfoundry@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Best Jekyll materialize theme
+baseurl: "/thunkable_extensions" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+# icon
+icon-16x16: /assets/images/icon/favicon-16x16.ico
+icon-32x32: /assets/images/icon/favicon-32x32.ico
+# theme color
+theme-color: { 
+  default-color: green, 
+  home-color: green,
+  about-color: red,
+  archive-color: pink,
+  links-color: purple,
+  tags-color: blue
+} 
+# mobile nav
+mobile-hp: /assets/images/M.png
+mobile-bg: theme #若填写theme则使用theme-color的值。
 
-# 2. Installed Gems
-gems:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jemoji
+# header 背景图片
+header-bg: /assets/images/bg.png
 
-# 3. Gem settings
-paginate: 5 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: Thunkable # jekyll-seo-tag > Owners twitter username
-author: Thunkable Extensions Community # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/Thunkable
-    - https://www.facebook.com/Thunkable
-    - https://github.com/Thunkable
-#    - https://www.linkedin.com/in/daviddarnes
-#    - https://plus.google.com/+DavidDarnes
+# disqus
+#disqus-shortname: blog-kejun-tk
 
-# 4. Jekyll settings
-sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+# cdn
+#cdn: false
+#cdnurl: https://jekyll-materialize.b0.upaiyun.com/
 
-# 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "The AIX Directory" # The post list page content
-    feature_text: |
-      ## <font color="#05bf85">Welcome to the blog</font>
-    #images: 816, 668, 532, 445, 201, 48, 1-9  
-    feature_image: "https://unsplash.it/1300/400?image=8"
+#google_analytics
+#google_analytics:
 
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+# 分享功能
+# todd
 
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "Thunkable Extensions Directory" # Site name or title, also used in jekyll-seo-tag
-logo: "http://domhnallohanlon.com/thunkable_extensions/assets/logo.png" # Site logo, also used in jekyll-seo-tag
-description: "This directory is developed and maintained by members of the Thunkable Community. We show you how to add extensions to your Thunkable apps and showcase some examples of extensions in action" # Site description and default description, also used in jekyll-seo-tag
-baseurl: "/thunkable_extensions"
-url: "http://domhnallohanlon.com" # Site url, also used in jekyll-seo-tag
-repo: "https://github.com/domhnallohanlon/thunkable_extensions/"
-email: "hello@thunkable.com"
-#disqus: "alembic-1"
-avatarurl: "http://domhnallohanlon.com/thunkable_extensions/assets/favicon.ico" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+#多个作者
+defaultAuthor: KeJun
+defaultAuthorImage: assets/images/tx.jpg
+manyAuthors: true
 
-# 8. Site navigation
-navigation_header:
-  Home: /
-  #Elements: /elements/
-  Examples: /blog/
-  Categories: /categories/
-  Search: /search/
-  About: /about/
-  #Fork Alembic: https://github.com/daviddarnes/alembic
+# 是否使用gallery
+gallery: false
 
-navigation_footer:
-  Created by The Thunkable Community: http://community.thunkable.com
-social_links:
-  Twitter: https://twitter.com/thunkable
-  GitHub: https://github.com/thunkable
-  #LinkedIn: https://www.linkedin.com/in/daviddarnes
-  #Google+: https://plus.google.com/+DavidDarnes
-  #link: https://darn.es
+# Build settings
+markdown: kramdown
 
-sharing_links:
-  Twitter: "#1DA1F2"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
-  Pinterest: "#BD081C"
-  LinkedIn: "#0077B5"
-  tumblr: "#36465D"
-  Reddit: "#FF4500"
-  Hacker News: "#ff6600"
-  Designer News: "#2D72D9"
-  Email: ""
+exclude: [vendor]

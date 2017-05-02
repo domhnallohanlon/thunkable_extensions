@@ -1,5 +1,7 @@
 ---
+layout: post
 title: Colours Extension
+categories: Design
 feature_text: |
   A guide to using the Colours Extension
 ---

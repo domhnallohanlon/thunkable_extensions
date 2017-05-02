@@ -1,6 +1,8 @@
 ---
+layout: post
+categories: Design
 title: Image Editor Extension
-feature_image: "https://unsplash.it/1200/400?image=0"
+image: /assets/images/demo0.jpg
 ---
 
 Developed by Thunkable Community Member, Mika, this extension allows users to set brightness, tints, watermarks, filters, and much, much more to images from their apps.

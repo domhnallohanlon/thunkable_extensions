@@ -1,219 +1,329 @@
-# [Alembic](https://alembic.darn.es/)
-[![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
+- jekyll-theme-materialize
+	- [预览](#user-content-预览)
+	- [安装](#user-content-安装)
+		- [使用gem](#user-content-使用gem)
+		- [使用git](#user-content-使用git)
+	- [更新](#user-content-更新)
+	- [用法](#user-content-用法)
+		- [config](#user-content-config)
+		- [post](#user-content-post)
+		- [otherPage](#user-content-otherPage)
+		- [addPage](#user-content-addPage)
+		- [友情链接](#user-content-友情链接)
+		- [myherfs](#user-content-myherfs)
+		- [manyAuthors](#user-content-manyAuthors)
+	- [注意1](#user-content-注意1)
+	- [注意2](#user-content-注意2)
+	- [TODO](#user-content-todo)
+	- [License](#user-content-license)
 
-⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
+# jekyll-theme-materialize
 
-![Screenshot](screenshot.png)
+![](https://ooo.0o0.ooo/2017/03/15/58c9345cdcfdf.png)
 
-## Contents
-- [About](#about)
-- [Features](#features)
-- [Examples](#examples)
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Gem dependency settings](#gem-dependency-settings)
-  - [Site settings](#site-settings)
-  - [Site navigation](#site-navigation)
-- [Using includes](#using-includes)
-- [Page layouts](#page-layouts)
-- [Page and Post options](#page-and-post-options)
-- [Credits](#credits)
+[![Build Status](https://travis-ci.org/KeJunMao/jekyll-theme-materialize.svg?branch=master?style=flat-square)](https://travis-ci.org/KeJunMao/jekyll-theme-materialize)
 
-## About
+[![jekyll-theme-materialize Version](https://badge.fury.io/rb/jekyll-theme-materialize.svg)](https://badge.fury.io/rb/jekyll-theme-materialize)
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+[![discord](https://img.shields.io/badge/discord-jekyll--theme--materialize-blue.svg)](https://discord.gg/JnaQkfz)
 
-## Features
+[![qq](https://img.shields.io/badge/QQ%20Group-Jekyll%20Materialize-blue.svg)](https://jq.qq.com/?_wv=1027&k=46Ds7oY)
 
-- Available as a starter kit or as [Jekyll 3.3 theme gem](http://jekyllrb.com/docs/themes/)
-- Tested in all major browsers, that includes IE as well as Edge
-- Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more
-- Solid typographic framework from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Easily interchangeable sidebar
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- Contact form built in using [Formspree](https://formspree.io/)
-- Works on [GitHub Pages](https://pages.github.com/) out of the box
-- Built with [Jekyll](https://jekyllrb.com/) 3.3
-- Designed with [Siteleaf](http://www.siteleaf.com/) in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+## 预览
 
-## Examples
+[coding page（中国）](http://kejun.coding.me/jekyll-theme-materialize/)
+[github page](https://kejunmao.github.io/jekyll-theme-materialize/)
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+## 安装
 
-- [bitpodcast.com](https://bitpodcast.com/)
-- [katiesimonemusic.com](http://katiesimonemusic.com/)
-- [joelcagedesign.com](https://joelcagedesign.com/)
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
-- [hrkeni.me](http://hrkeni.me/)
-- [venuthatikonda.github.io](https://venuthatikonda.github.io/)
-- [ccs17.bsc.es](https://ccs17.bsc.es/)
+有两种安装方法，一种是gem安装，另一种是`git clone`。
 
-## Installation
+> 主题正在开发阶段建议您使用git clone的方法安装，这样您可以获取最新开发版本，而gem版本是略微稳定或新功能推出、已知bug修复的版本。
 
-### As a Boilerplate / Fork
+### 使用gem
 
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
-3. Delete the `demo/` folder and `screenshot.png` files
-4. Change the `CNAME` record to your projects' record
-5. Install bundler with `$ gem install bundler`
-6. Install gems with `$ bundle install`
-7. Run Jekyll with `$ bundle exec jekyll serve --watch`
-8. Begin hacking for your project
+若使用gem，您需要手动新建一些文件，和文件夹，如`links.md`、`_data`等
 
-### As a Jekyll 3.3 theme gem
+添加下行到你 Jekyll 的 `Gemfile`文件中:
 
-1. Download the starter `/demo` content, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/daviddarnes/alembic/tree/master/demo)
-2. Install bundler with `$ gem install bundler`
-3. Install gems with `$ bundle install`
-4. Run Jekyll with `$ bundle exec jekyll serve --watch`
-5. Begin hacking for your project
-
-### Boilerplate & Theme differences
-
-The boilerplate kit is better for more drastic hacking and changes, a project that's quite different to any other and needs a lot of custom work done. Additionally you'll only be able to use this method if you want to host it on GitHub Pages, as [themes can't be submitted](https://pages.github.com/themes/)... yet.
-
-Using the theme will allow you to receive updates made and will be more programmatic. To make your own changes you'll need to overwrite the files with your own. For example: If I want to change the colours of my site I'll need to copy the [`_colors.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_colors.scss) file and create my own in `_sass/colors.scss` with my own changes. This is the same for all files within the theme, which means your own project will be more lean than if you were to use the boilerplate.
-
-## Configuration
-
-There's a number of settings you'll need to change before you can start hacking away at files. Here's a run down of what you'll need to change:
-
-### Gem dependency settings
-`twitter`, `author` and `social` values will need to be changed to the projects' social information or removed. Look for the `Gem settings` comment within the `/_config.yml` file. These values are for the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) - follow the link to find out more.
-
-### Site settings
-You'll need to change the `description`, `title` and `url` to match with the project. You'll also need to replace the `/assets/placeholder-logo.svg` `/assets/placeholder-social.png` with project logo and default social image. The `email` needs to be changed to the email you want to receive contact form enquires with. The `disqus` value should be changed to your project username on [Disqus](https://disqus.com). Look for the `Site settings` comment within the `/_config.yml` file. The `repo` setting is optional, for now, and can be removed entirely, if you wish.
-
-### Site navigation
-There are a total of 4 different navigation types:
-
-- `navigation_header`: The links shown in the header (it is also used on the 404 page)
-- `navigation_footer`: The links shown in the footer
-- `social_links`: The social icon links that are shown in the sidebar
-- `sharing_links`: The social sharing buttons that are shown at the bottom of blog posts
-
-All navigations can be edited using the `_config.yml` file. To see example usage either look for the `Site navigation` comment within the `/_config.yml` file or see [the nav-share.html include](#nav-sharehtml).
-
-If there are no items for the `navigation_header` or `navigation_footer`, they will fallback to a list of pages within the site. The `social_navigation` properties should either be one that is already in the list (so `Twitter` or `Facebook`) or simply `link`, this is so an icon can be set for the link.
-
-## Using includes
-
-There are 2 main types of includes: ones designed for the site and ones that are designed as shortcodes. Here are a list of the shortcode includes:
-
-### `button.html`
-A button that can link to a page of any kind.
-
-Example usage: `{% include button.html text="I'm a button" link="https://daviddarnes.com" %}`
-
-Available options:
-- `text`: The text of the button _required_
-- `link`: The link that the button goes to _required_
-- `icon`: The icon that is added to the end of the button text
-- `color`: The color of the button
-
-### `figure.html`
-An image with optional caption.
-
-Example usage: `{% include figure.html image="/uploads/feature-image.jpg" caption="Check out my photo" %}`
-
-Available options:
-- `image`: The image shown _required_
-- `caption`: A caption to explain the image
-- `position`: The position of the image. `left`, `right` or `full`
-
-### `icon.html`
-An icon.
-
-Example usage: `{% include icon.html id="twitter" %}`
-
-Available options:
-- `id`: The reference for the icon _required_
-- `title`: The accessible label for the icon
-- `color`: The desired colour of the icon
-
-### `nav-share.html`
-A set of buttons that share the current page to various social networks, which is controlled within the `_config.yml` file under the `sharing_links` keyword.
-
-Example usage: `{% include nav-share.html %}`
-
-Available options:
-``` yml
-Twitter: "#1DA1F2"
-facebook: "#3B5998"
-Google+: "#DC4E41"
-Pinterest: "#BD081C"
-LinkedIn: "#0077B5"
-tumblr: "#36465D"
-Reddit: "#FF4500"
-Hacker News: "#ff6600"
-Designer News: "#2D72D9"
-Email: ""
+```ruby
+#安装主题
+gem "jekyll-theme-materialize"
 ```
 
-_The first item is the name of the network (must be one of the ones stated above) and the second is the colour of the button. To remove a button just remove the line of the same name._
+添加下行到你 Jekyll 的`_config.yml`文件中 :
 
-### `video.html`
-A YouTube video.
+```yaml
+#启用主题
+theme: jekyll-theme-materialize
+```
+然后执行:
 
-Example usage: `{% include video.html id="zrkcGL5H3MU" %}`
+    $ bundle
 
-Available options:
-- `id`: The YouTube ID for the video _required_
+或手动执行:
 
-### `map.html`
-A Google map. _See Google [My Maps](https://www.google.com/mymaps)_
+    $ gem install jekyll-theme-materialize
 
-Example usage: `{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" %}`
+### 使用git
 
-Available options:
-- `id`: The map ID for the video _required_
+```bash
+$ git clone https://github.com/KeJunMao/jekyll-theme-materialize.git
+$ cd jekyll-theme-materialize
+$ bundle install
+$ bundle exec jekyll s -w
+```
+## 更新
 
-### `site-form.html`
-Adds a contact form to the page.
+    $ bundle
 
-Example usage: `{% include site-form.html %}`
+## 用法
 
-This include has no options. Use the `email` option in the `/_config.yml` to change to the desired email.
+下面的内容能极大的帮助你使用本主题，请务必仔细阅读。
 
-### `site-search.html`
-Adds a search form to the page.
+### config
 
-Example usage: `{% include site-search.html %}`
+将如下内容添加到你Jekyll 的`_config.yml`文件中，请注意替换为你自己的信息：
 
-This include has no options. This include will add a block of javascript to the page and javascript reference in order for the search field to work correctly.
+```yaml
+title: KeJun | BLOG
+email: kejun1997@gmail.com
+description: 二次元智障
+url: "https://blog.kejun.tk/" 
 
-## Page layouts
+# icon
+icon-16x16: images/icon/favicon-16x16.ico
+icon-32x32: images/icon/favicon-32x32.ico
 
-As well as `page`, `post`, `blog`, there are a few alternative layouts that can be used on pages:
+# theme color ,具体的值请参考http://materializecss.com/color.html
+theme-color: { 
+  default-color: green, 
+  home-color: green,
+  about-color: red,
+  archive-color: pink,
+  links-color: purple,
+  tags-color: blue
+} 
 
-- `page-aside-left`: Places the aside (sidebar) to the left of the content
-- `home`: Removes the aside entirely, leaving the full width for the main content (typically used for home page designs)
-- `categories`: Shows all posts grouped by category, with an index of categories in a left hand sidebar
-- `search`: Adds a search field to the page as well as a simplified version of the sidebar to allow more focus on the search results
+# mobile nav
+mobile-hp: /images/tx.jpg       # 头像
+mobile-bg: /images/userbg.png   # 背景,若填写theme则使用主题色。
 
-## Page and Post options
+# header 背景图片
+header-bg: /assets/images/bg.png
 
-There are some more specific options you can apply when creating a page or a post:
+# disqus
+disqus-shortname: blog-kejun-tk #disqus shortname
 
-- `comments: false`: Turns off comments for that post
-- `feature_image: "/uploads/feature-image.jpg"`: Adds a full width feature image at the top of the page
-- `feature_text: "Example text"`: Adds text to the top of the page as a full width feature with solid colour; supports markdown. This can be used in conjunction with the `feature_image` option to create a feature image with text over it
-- `indexing: false`: Adds a `noindex` meta element to the `<head>` to stop crawler bots from indexing the page, used on the 404 page
+# cdn
+cdnurl: https://cdnurl.com/ #cdn
 
-> **Note:** The Post List Page options are actually in the collection data within the `_config.yml` file.
+#google_analytics
+google_analytics:
 
-## Credits
+#多个作者
+defaultAuthor: KeJun #默认作者
+defaultAuthorImage: assets/images/tx.jpg #默认作者头像
+manyAuthors: false
 
-- Thanks to [Simple Icons](https://simpleicons.org/) for providing the brand icons, by [Dan Leech](https://twitter.com/bathtype)
-- Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
-- Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
-- Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
-- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
+# 是否使用gallery
+gallery: false
+```
+
+### post
+
+每一个新的文章均需要添加如下yaml:
+
+```yaml
+---
+layout: post        # 指定模板
+title:  "toc test"
+date:   2017-03-04 10:42:06 +0800
+categories: NoImage # 分类，首页显示,该项经常用于检测是否为post。请注意，每个文章仅支持一个分类。
+image:              # 图像，用于首页，若留空将以NoImage的形式显示, 暂不支持跨域图像。
+tags: jekyll ubuntu # 标签，用于tags页面，允许多个
+toc: *              # 确定是否显示toc目录，默认为不显示。
+comments: true      # 是否显示评论
+author:             # 若指定作者名，请开启多作者功能，否则将以默认作者显示。
+---
+```
+### otherPage
+
+请注意jekyll根目录下的`.md`文件的`layout`与`_layout`文件下的文件对应.如：
+
+* `index.md`
+
+```yaml
+---
+layout: home
+---
+```
+
+* `links.md`
+
+```yaml
+---
+layout: links
+---
+```
+
+* `tags.md`
+
+```yaml
+---
+layout: tags
+---
+```
+
+* `about.md`
+
+```yaml
+---
+layout: about
+---
+```
+
+* `archive.md`
+
+```yaml
+---
+layout: archive
+---
+```
+
+### addPage
+
+如需新增page，建议按：
+
+* 根目录新建 `pageName.md`,并在头信息中键入如下：
+
+```yaml
+---
+title: pageName         # 标题
+layout: pageName        # 模板,建议为标题或文件名，若以文章形式输出，layout 填写 about 并编辑该.md文件即可，无需下一步 。
+describe: pageName      # 描述
+toc: *                  # 确定是否显示toc目录。
+comments: true          # 是否显示评论
+---
+```
+
+* 在`_layout`目录下新建`pageName.html`，并键入如下：
+
+```yaml
+--- 
+layout: default 
+---
+```
+
+这样你就成功引入了`head`，`header`，`main`，`script`，`footer`。然后编辑刚刚新建的`pageName.html`即可添加自定义`html`。
+
+> 你新增的页面将以`_config.yml`文件中的 `default-color` 作为主题色。如果你知道你在干什么，你也可以编辑`header`和`footer`。
+
+### 友情链接
+
+友情链接在`_data/links.yml`中，要删除或新增，请遵循如下格式：
+
+```yaml
+- name: Halyul
+  image: images/links/halyul.png
+  url: https://halyul.com/
+  describe: Material Design爱好者
+```
+
+### myherfs
+
+footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即可，！请勿更改name！：
+
+```yaml
+# 请不要填写太多否则会很丑。
+- name: twitter
+  url: https://twitter.com/yrmkejun
+
+- name: facebook
+  url: 
+
+- name: weibo
+  url: 
+
+- name: instagram
+  url: 
+
+- name: tumblr
+  url: 
+
+- name: github
+  url: https://github.com/KeJunMao
+
+- name: linkedin
+  url: 
+
+- name: zhihu
+  url: 
+
+- name: bilibili
+  url: 
+
+- name: telegram
+  url: 
+
+- name: gplus
+  url:
+```
+
+若想要自定义顺序，你可以调整他们的整体顺序。
+
+### manyAuthors
+
+当启用多作者 `manyAuthors: true` 后，您可以在文章yaml处指定作者，为了避免重复指定头像url，您必须在`_data/authors.yml`按如下格式设置：
+
+```yaml
+
+- name: Jekyll
+  image: assets/images/links/jianyuyouhun.jpg
+
+- name: Other
+  image: assets/images/links/halyul.png
+
+```
+
+## 注意1
+
+该主题引用的`gallery.min.opt.js`及`gallery-materialize.min.opt.css`文件并没有经过原开发者同意。若侵权，请告知并删除。
+
+你可以在`main.js`中自定义首页文章的GalleryExpand效果：
+
+| Option  | Description |
+| ------------- | ------------- |
+|inDuration	| Transition duration for opening the gallery in ms. Default: 300|
+|outDuration |	Transition duration for closing the gallery in ms. Default: 200|
+|responsiveThreshold |	Breakpoint for full width style in pixels. Default: 992|
+|contentPadding |	Padding for content in the gallery in pixels. Default: 40|
+|onShow |	Callback function that is fired when the gallery is opened.|
+|defaultColor |	Fallback color for when color thief fails. Default: '#444'|
+|fillScreen |	Enable the full width image transition style. Default: false|
+
+## 注意2
+
+目前，绝大多数本地url添加了前置`baseurl`，如果造成了无法引入的问题，请提出：<a class="github-button" href="https://github.com/KeJunMao/jekyll-theme-materialize/issues">Issue</a>
+
+## TODO
+
+* disqus     # 完成
+* toc        # 完成
+* 图像加载动画 # 完成
+* 搜索        # 完成
+* 二次元化选项 
+* cdn 支持    # 完成
+* google analytics        # 完成
+* 分享
+* 显示作者     #完成
+* post layout images点击放大出现的位置错误
+* home 和 archive 文章图片使用图床时的跨域问题（因为使用javascript优化了加载）
+* 不依赖ruby gems的i18n
+* homepage,请看[demo](https://kejun.space/)，[仓库地址](https://coding.net/u/KeJun/p/homepage/git)。
+* 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。请看[demo](https://kejun.space/#other),[json](https://coding.net/u/KeJun/p/myblog/git/blob/master/assets/postsAndLinks.json)。
+* gallery 开启与关闭。# 完成
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

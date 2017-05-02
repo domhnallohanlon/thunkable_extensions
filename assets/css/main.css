@@ -1,0 +1,135 @@
+  body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+  }
+  
+  main {
+      flex: 1 0 auto;
+  }
+  
+  input[type=search] {
+      border-bottom: 0px!important;
+  }
+  .nav-search-wrapper input:not([type]):focus:not([readonly]) {
+      border-color: #fff;
+  }
+  .nav-search-wrapper input:not([type]){
+    border-color: #cacaca;
+  }
+  .page-footer {
+      z-index: 2;
+  }
+    .post-data{
+      margin-bottom: 0px;
+    }
+  
+  .linkTitle {
+      margin: 0px 0px;
+      font-size: 2em;
+  }
+  
+  .linkCard {
+      max-height: 100px;
+      height: 100px;
+      padding: 10px 10px;
+      min-width: 272px;
+  }
+  
+  .linkContent {
+      height: 100%;
+      /*width:27em; */
+      white-space:nowrap; 
+      text-overflow:ellipsis;
+      -o-text-overflow:ellipsis; 
+      overflow:hidden;
+  }
+
+    .lazy{
+        display: none
+    };
+    div.center.gradient{
+        height: 100%;
+        line-height: 22
+    }
+    .nav-search-wrapper{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    width: 265px;
+    height: 45px;
+    margin: 0;
+    padding: 0 45px 0 15px;
+    border: 0;
+    /*position: absolute;*/
+    }
+    i.search{
+      position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    }
+    .nav-search-results{
+      max-width: 180px;
+      position: absolute;
+      width: 180px;
+      z-index: 99;
+    }
+    .post-list{
+      width: 100%
+    }
+    input#nav-search{
+      border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    }
+    input#nav-search:focus:not([readonly]){
+      border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    .linkIcon{
+    width: 30px;
+    opacity: .70;
+    margin-right: 20px;
+    }
+    .p-linkIcon{
+        line-height: 0px;
+        margin-top: 0px;
+    }
+    .linkIcon a,img:hover {
+        opacity: 1.0;
+    }
+    .p-date{
+        margin-top: 0px;
+        line-height: 42px;
+        margin-bottom: 0px;
+    }
+    .copyright-row{
+        margin-bottom: 0px;
+    }
+    .search-strong{
+        font-weight: bold;
+    }
+    .nav-search-wrapper div.card{
+        width: 250px;
+    }
+    .input-field div.card{
+        width: 100%;
+    }
+    div.gallery-header {
+        padding-bottom: 10px!important;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, .2);
+    }
+   .to-top {
+      z-index: 1;
+  }
+  .mobile-background-image{
+    opacity: 0.1;
+    height: 100%;
+  }

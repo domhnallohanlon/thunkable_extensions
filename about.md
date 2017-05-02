@@ -1,10 +1,13 @@
 ---
-Title: About
-feature_text: "## Contributors"
+layout: about
+title: About
+describe: about page
 ---
+## What are Extensions
 
-### Thanks to the following Thunkers who made this project possible:
+Simple explanation
 
-- one
-- two
-- three
+
+## How to Install an Extension
+
+10 step walk through

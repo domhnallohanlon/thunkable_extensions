@@ -1,0 +1,39 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4CAF50">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% unless site.cdn %}
+  <link rel="icon" href="{{ site.icon-32x32 | prepend: site.baseurl }}" sizes="32x32">
+  <link rel="icon" href="{{ site.icon-16x16 | prepend: site.baseurl }}" sizes="16x16">
+
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <link href="https://fonts.css.network/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/materialize.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/gallery-materialize.min.opt.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/prism.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  
+  <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.baseurl }}">
+{% else %}
+  <link rel="icon" href="{{ site.icon-32x32 | prepend: site.cdnurl }}" sizes="32x32">
+  <link rel="icon" href="{{ site.icon-16x16 | prepend: site.cdnurl }}" sizes="16x16">
+
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <link href="https://fonts.css.network/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/materialize.min.css" | prepend: site.cdnurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/gallery-materialize.min.opt.css" | prepend: site.cdnurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/prism.css" | prepend: site.cdnurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.cdnurl }}">
+  
+  <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.cdnurl }}">
+{% endunless %}
+</head>

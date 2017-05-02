@@ -1,5 +1,7 @@
 ---
+layout: post
 title: Dialogs Extension
+categories: Design
 feature_text: |
   How to use the Dialogs Extension
 ---

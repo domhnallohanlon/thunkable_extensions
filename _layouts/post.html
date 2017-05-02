@@ -1,25 +1,26 @@
 ---
 layout: default
 ---
+<br>
+    <div class="row">
+      <div class="col s12">
+        <div id="postsContent" class="card-panel white">
+          <span>
+            {{ content }}
+          </span>
+            {% if page.comments %}
+    
+            {% include disqus.html %}
 
-{% include site-header.html %}
-
-<main class="main  container">
-
-	<article class="article  article--post  content  typeset">
-
-    <h1>{{ page.title }}</h1>
-		{% include post-meta.html %}
-    {{ content }}
-
-		{% include nav-share.html %}
-
-		{% include post-comments.html %}
-
-  </article>
-
-  {% include site-aside.html %}
-
-</main>
-
-{% include site-footer.html %}
+            {% endif %}
+        </div>
+      </div>
+    </div>
+<div class="row">
+{% if page.previous.url %}
+<a data-position="left" data-delay="50" data-tooltip="{{page.previous.title}}" href="{{page.previous.url | prepend: site.baseurl }}" class="btn-floating waves-effect waves-grey btn-flat white tooltipped"><i class="material-icons black-text">arrow_back</i></a>
+{% endif %}
+{% if page.next.url %}
+<a data-position="right" data-delay="50" data-tooltip="{{page.next.title}}" href="{{page.next.url | prepend: site.baseurl }}" class="btn-floating waves-effect waves-grey btn-flat white right tooltipped"><i class="material-icons black-text">arrow_forward</i></a>
+{% endif %}
+</div>

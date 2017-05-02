@@ -1,0 +1,61 @@
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+{% unless site.cdn %}
+<script type="text/javascript" src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.scrollToTop.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/gallery.min.opt.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.lazyload.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/toc.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+
+{% else %}
+<script type="text/javascript" src="{{ "/assets/js/materialize.min.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.scrollToTop.min.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/gallery.min.opt.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.lazyload.min.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/toc.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.cdnurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/bootstrap3-typeahead.min.js" | prepend: site.cdnurl }}"></script>
+{% endunless %}
+
+
+<script>
+   $(document).ready(function () {
+        var time1 = 0;
+        var show = false;
+        var names = new Array(); //文章名字等
+        var urls = new Array(); //文章地址
+        $.getJSON("{{"/assets/cb-search.json"| prepend: site.baseurl}}").done(function (data) {
+            if (data.code == 0) {
+                for (var index in data.data) {
+                    var item = data.data[index];
+                    names.push(item.title);
+                    urls.push(item.url);
+                }
+
+                $(".cb-search-content").typeahead({
+                    source: names,
+
+                    afterSelect: function (item) {
+						$(".cb-search-tool").css("display", "none");
+                        show = false;
+                        window.location.href = (urls[names.indexOf(item)]);
+                        return item;
+                    }
+                });
+            }
+        }).error(function(data, b) { console.log("json解析错误，搜索功能暂不可用，请检查文章title，确保不含有换行等特殊符号"); });
+            {% unless site.gallery %}
+                var posts = $("div.gallery-item");
+                if (posts.attr("data-url")){
+                posts.unbind();
+                posts.click(function(){
+                    var postUrl = $(this).attr("data-url")
+                    window.location.href=postUrl;
+                })
+                }
+
+            {% endunless %}
+    });
+
+</script>

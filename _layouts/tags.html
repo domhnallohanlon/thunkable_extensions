@@ -1,0 +1,27 @@
+--- 
+layout: default 
+---
+<br> 
+{% for tag in site.tags %}
+<div class="b e gallery-collection">
+    <div class="d ii offset-m2 gu gallery-item gallery-expand ce" style="position: absolute; left: 0px; top: 124px;">
+        <div class="placeholder">
+            <div class="gallery-curve-wrapper">
+                <div class="gallery-header">
+                    <span><font><font >{{ tag[0] }}</font></font></span>
+                    <span class="badge blue white-text">{{ tag[1] | size }} 篇文章</span>
+                </div>
+                <div class="gallery-body">
+                    <div class="title-wrapper center">
+                        <h3>{{ tag[0] }}</h3>
+                    </div>
+                    <div class="collection">
+                        {% for post in tag[1] %}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="collection-item"><span class="badge blue white-text">{{ post.date | date:"%Y-%m-%d" }}</span>{{ post.title }}</a>{% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
