@@ -13,24 +13,20 @@ Developed by Thunkable Community Member, Mika, this extension allows users to se
 
 ### Download
 
-{% include button.html text="Download from Developer" link="https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6" %}
+[Download the Image Editor Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6)
 
-### Overview
+This powerful extension provides lots of features for editing images right from your app. One of the main benefits of this extensions is that, once installed, you user does not need to have an internet connection to use it. The full extension can be dowloaded from the Thunkable community, along with Mika's documentation and sample app.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/image_editor_extension/install_iee.gif)
 
-[Image Editor Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6)
+### Colour Filter
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/image_editor_extension/ie_filter.png)
 
-### Examples
+### Greyscale
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/image_editor_extension/ie_greyscale.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Flip
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/image_editor_extension/ie_flip.png)
+
+### Tint
+![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/image_editor_extension/ie_tint.png)

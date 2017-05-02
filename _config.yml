@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/thunkable_extensions" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 # icon
-icon-16x16: /assets/images/icon/favicon-16x16.ico
-icon-32x32: /assets/images/icon/favicon-32x32.ico
+icon-16x16: /assets/images/icon/favicon.ico
+icon-32x32: /assets/images/icon/favicon.ico
 # theme color
 theme-color: { 
   default-color: green, 
@@ -25,7 +25,7 @@ theme-color: {
   tags-color: blue
 } 
 # mobile nav
-mobile-hp: /assets/images/M.png
+mobile-hp: /assets/images/icon/logo.png
 mobile-bg: theme #若填写theme则使用theme-color的值。
 
 # header 背景图片
