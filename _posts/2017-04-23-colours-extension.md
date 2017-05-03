@@ -9,14 +9,17 @@ Developed by Helios, this extension allows you to convert #HEX colours to (R G B
 
 <!-- more -->
 
-## Download
+## Overview
 
-The full extension can be dowloaded from the [Thunkable community](http://community.thunkable.com/t/colours-extension/2513?u=helios), along with Helios' documentation and sample app.
-
+| Extension Author | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
+| Quick Start Link| <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> Open app in Thunkable</a>|
+| Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios">Manual Download</a>|
+| Donate to Developer | LINK |
+| License | LINK|
 
 ## Installation
 
-You can either follow all the steps as shown in the animation below or you can add the starter project directly to your thunkable by clicking <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_book_1/master/aia/thunka_boards_template.asc" class="flat_btn" target="_blank"> here.</a>
+You can either follow all the steps as shown in the animation below or you can add the starter project directly to your thunkable by clicking <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> here.</a>
 
 ![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/install_ce.gif)
 
@@ -59,5 +62,8 @@ Again, the return type from this block is a (R G B) list so don't forget to pass
 
 ![mix](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_mix.png)
 
+## Download
+
+The full extension can be dowloaded from the [Thunkable community](http://community.thunkable.com/t/colours-extension/2513?u=helios), along with Helios' documentation and sample app.
 
 
