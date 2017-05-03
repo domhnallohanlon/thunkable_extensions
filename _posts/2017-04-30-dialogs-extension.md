@@ -20,23 +20,23 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 The "LightTheme" block is used to change the background colour of the dialog. This block is used in conjunction with the "True" and "False" blocks.
 
 Here are some examples of this block:
-<img src="assets/post_assets/dialogs_extension/DarkThemeBlock.png" alt="DarkThemeBlock">
-<img src="assets/post_assets/dialogs_extension/DarkThemeDialog.png" alt="DarkThemeDialog">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DarkThemeBlock.png" alt="DarkThemeBlock">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DarkThemeDialog.png" alt="DarkThemeDialog">
 <br>
-<img src="assets/post_assets/dialogs_extension/LightThemeBlock.png" alt="LightThemeBlock">
-<img src="assets/post_assets/dialogs_extension/LightThemeDialog.png" alt="LightThemeDialog">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/LightThemeBlock.png" alt="LightThemeBlock">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/LightThemeDialog.png" alt="LightThemeDialog">
 
 ### ShowToast
-<img src="assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowToastBlock">
-<img src="assets/post_assets/dialogs_extension/ShowToastMessage.png" alt="ShowToastMessage">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowToastBlock">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastMessage.png" alt="ShowToastMessage">
 
 ### ShowSpinningProgress
-<img src="assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowSpinningProgressBlock">
-<img src="assets/post_assets/dialogs_extension/ShowSpinningProgressDialog.gif" alt="ShowSpinningProgress">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowSpinningProgressBlock">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowSpinningProgressDialog.gif" alt="ShowSpinningProgress">
 
 ### Dismiss Progress Dialogs
 This block is used to close the "ShowSpinningProgress" dialog, if the "dismissable" property is set to false.
-<img src="assets/post_assets/dialogs_extension/DismissProgressDialog.png" alt="DismissProgressDialog">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DismissProgressDialog.png" alt="DismissProgressDialog">
 
 <hr />
 
