@@ -21,18 +21,18 @@ The "LightTheme" block is used to change the background colour of the dialog. Th
 
 Here are some examples of this block:
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DarkThemeBlock.png" alt="DarkThemeBlock">
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DarkThemeDialog.png" alt="DarkThemeDialog">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/DarkThemeDialog.png" alt="DarkThemeDialog" height="80" width="450">
 <br>
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/LightThemeBlock.png" alt="LightThemeBlock">
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/LightThemeDialog.png" alt="LightThemeDialog">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/LightThemeDialog.png" alt="LightThemeDialog" height="80" width="450">
 
 ### ShowToast
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowToastBlock">
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastMessage.png" alt="ShowToastMessage">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastMessage.png" alt="ShowToastMessage" height="80" width="450">
 
 ### ShowSpinningProgress
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowToastBlock.png" alt="ShowSpinningProgressBlock">
-<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowSpinningProgressDialog.gif" alt="ShowSpinningProgress">
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/dialogs_extension/ShowSpinningProgressDialog.gif" alt="ShowSpinningProgress" height="80" width="450">
 
 ### Dismiss Progress Dialogs
 This block is used to close the "ShowSpinningProgress" dialog, if the "dismissable" property is set to false.
