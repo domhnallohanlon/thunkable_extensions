@@ -15,14 +15,14 @@ url: "" # the base hostname & protocol for your site
 # icon
 icon-16x16: /assets/images/icon/favicon.ico
 icon-32x32: /assets/images/icon/favicon.ico
-# theme color
+# theme color, green, green, red, pink, purple, blue
 theme-color: { 
-  default-color: green, 
-  home-color: green,
+  default-color: red, 
+  home-color: red,
   about-color: red,
-  archive-color: pink,
-  links-color: purple,
-  tags-color: blue
+  archive-color: red,
+  links-color: red,
+  tags-color: red
 } 
 # mobile nav
 mobile-hp: /assets/images/icon/logo.png
