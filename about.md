@@ -43,6 +43,7 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 
 - [BluetoothPlus Extension](http://community.thunkable.com/t/bluetoothplus-extension/2706?u=sander0542)
 - [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
+- [Vibrate Extension](http://community.thunkable.com/t/vibrate-extension/3272?u=sander0542)
 
 <hr />
 
