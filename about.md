@@ -144,6 +144,7 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ) - _by: Andres Daniel_
 - [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ) - _by: Andres Daniel_
 - [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE) - _by: Andres Daniel_
+- [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw) - _by: Andres Daniel_
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
 
 ## How to Install an Extension
