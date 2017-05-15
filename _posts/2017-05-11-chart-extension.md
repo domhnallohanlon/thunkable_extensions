@@ -29,7 +29,7 @@ The "DrawPieChart" block is used to create a Pie Chart. [Here](https://eagereyes
 
 The following example demonstrates the usage of this block :
 
-![DrawPieChart Example](/assets/post_assets/ChartMaker_Extension/DrawPieGraph.png)
+![DrawPieChart Example](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/DrawPieGraph.png)
 
  As said earlier, all the  data entered is converted into a table to generate a chart. A pie chart needs two columns, with the first one being the label for the slice and the second one being the value of the slice.
 Each row represents a new slice.
@@ -73,7 +73,7 @@ The table for this example will be :
 The above block will generate this pie chart :
 
 
-![Result](/assets/post_assets/ChartMaker_Extension/PieChart.jpg)
+![Result](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/PieChart.jpg)
 
 
 ## DrawBarGraph
@@ -81,18 +81,18 @@ This block is used to create a simple bar graph.
 The parameters are used in the same way in which they are used in `DrawPieChart` blocks.
 The same explanations given above apply for this block too.
 #### Example
-![DrawBarGraph](/assets/post_assets/ChartMaker_Extension/DrawBarGraph.png)
+![DrawBarGraph](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/DrawBarGraph.png)
 <br>
 
 #### Output
-![BarGraph](/assets/post_assets/ChartMaker_Extension/BarGraph.jpg)
+![BarGraph](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/BarGraph.jpg)
 
 ### DrawLineGraph
 The DrawLineGraph block generates a line graphs from the given input.
 
 #### Example
 
-![DrawLineGraph](/assets/post_assets/ChartMaker_Extension/DrawLineGraph.png)
+![DrawLineGraph](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/DrawLineGraph.png)
 
 
 <br>
@@ -124,7 +124,7 @@ The data is given in the above block can be visualized in the form of the follow
 * _webViewer_ - The [_Web Viewer_](http://thunkable.com/reference/components/user_interface.html) component in which the generated chart should be displayed.
 
 
-The above example uses `list from csv table ` block to define the points to be plotted . **C**omma **S**eperated **V**alue (csv) table is a simple table in which each line represents a row and each value seperated by comma represents data in a column. The value in the `data ` variable used in the above example is defined by a string that contains the following text:
+The above example uses <span class="block list">list from csv table</span> block to define the points to be plotted . **C**omma **S**eperated **V**alue (csv) table is a simple table in which each line represents a row and each value seperated by comma represents data in a column. The value in the `data ` variable used in the above example is defined by a string that contains the following text:
 ```
 1,  37.8, 80.8, 41.8\n2,  30.9, 69.5, 32.4\n3,  25.4,   57, 25.7\n4,  11.7, 18.8, 10.5\n5,  11.9, 17.6, 10.4\n6,   8.8, 13.6,  7.7\n7,   7.6, 12.3,  9.6
 ```
@@ -132,10 +132,10 @@ The above example uses `list from csv table ` block to define the points to be p
 </hr>
 The same output can be achieved using this block in the _values_ :
 
-![Another Method](/assets/post_assets/ChartMaker_Extension/alternative.png)
+![Another Method](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/alternative.png)
  #### Output
 The above example of DrawLineGraph block produces the following graph :
-![LineGraph](/assets/post_assets/ChartMaker_Extension/LineGraph.jpg)
+![LineGraph](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/LineGraph.jpg)
 
 <hr />
 
