@@ -12,6 +12,17 @@ The Chart Maker extension allows us to create charts using the [Google Charts](h
 
 <!-- more -->
 
+## Overview
+
+| Extension Developer | LINK |
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
+| Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios" hidden>Manual Download</a> LINK|
+| Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> LINK
+| Donate to Developer | LINK |
+| License | LINK|
+
+<p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
+
 ### How Google Charts work
  
 Google Charts require the data to be in the form of table with rows and columns.

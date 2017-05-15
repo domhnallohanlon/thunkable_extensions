@@ -3,6 +3,7 @@ layout: post
 title: Colours Extension
 categories: Design
 tags: Helios Colours HEX RGB
+toc: true
 ---
 
 Developed by Helios, this extension allows you to convert #HEX colours to (R G B) and vice versa. It also allows you to lighten, darken and mix colours. 
@@ -11,8 +12,8 @@ Developed by Helios, this extension allows you to convert #HEX colours to (R G B
 
 ## Overview
 
-| Extension Author | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
-| Quick Start Link| <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> Open app in Thunkable</a>|
+| Extension Developer | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a>|
 | Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios">Manual Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton">com.vishwas.Colours.aix</a>
 | Donate to Developer | LINK |
@@ -43,7 +44,7 @@ The <span class="block procedure">Colours1.RGBToHex</span> block takes a lisp li
 
 ![r2h](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/colours_r2h.png)
 
-### Lighten & Darken {#landd}
+### Lighten & Darken {#landd}
 
 Both the lighten and darken blocks require two input aruments. 
 The **colour** input expects a list in the form (R G B), rather than an integer as an input.
