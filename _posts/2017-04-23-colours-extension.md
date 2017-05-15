@@ -14,9 +14,12 @@ Developed by Helios, this extension allows you to convert #HEX colours to (R G B
 | Extension Author | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
 | Quick Start Link| <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> Open app in Thunkable</a>|
 | Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios">Manual Download</a>|
+| Click-to-Copy Link | <a href="#" id="copyButton">com.vishwas.Colours.aix</a>
 | Donate to Developer | LINK |
 | License | LINK|
 
+<p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
+ 
 ## Installation
 
 You can either follow all the steps as shown in the animation below or you can add the starter project directly to your thunkable by clicking <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> here.</a>
