@@ -45,6 +45,16 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
 - [Vibrate Extension](http://community.thunkable.com/t/vibrate-extension/3272?u=sander0542)
 
+- [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488) - _By: Pavi and Sander_
+
+#### Andres Daniel
+- [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ)
+- [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ)
+- [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE)
+- [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw)
+- [Dendritas Table Extension](https://groups.google.com/d/msg/mitappinventortest/B16XCAmuBJo/3EYzPa0ABAAJ)
+- [MQTT Extension for Arduino and ESP8266](https://groups.google.com/d/msg/mitappinventortest/PguwKcn5PzY/Kg8BJEPGAQAJ)
+
 <hr />
 
 ### [Thunkable Team Extensions](http://thunkable.com)
@@ -141,10 +151,6 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 
 - [Client TCP Extension](https://groups.google.com/d/msg/mitappinventortest/OCzEZC4FpEU/sEVrCeXaCQAJ) - _by: Jean-Rodolphe Letertre_
 - [SMB Manager Extension](https://groups.google.com/d/msg/mitappinventortest/ilbNL4dnZx0/lqmvJEKnAgAJ) - _by: Jörg Hüneburg_
-- [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ) - _by: Andres Daniel_
-- [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ) - _by: Andres Daniel_
-- [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE) - _by: Andres Daniel_
-- [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw) - _by: Andres Daniel_
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
 
 ## How to Install an Extension
