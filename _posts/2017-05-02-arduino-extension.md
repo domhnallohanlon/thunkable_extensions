@@ -21,6 +21,11 @@ Using this extension you can create a serial connection via USB between your pho
 <p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
 
 
+## Thunkable Community
+
+>If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/test-arduino-usb-serial-extension/2624?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+
+
 ## Download
 
 The original aix file can be downloaded from [here](https://groups.google.com/forum/m/#!category-topic/mitappinventortest/WZCUtKAfwj0)

@@ -15,11 +15,18 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 | Extension Developer | LINK |
 | Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
 | Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios" hidden>Manual Download</a> LINK|
-| Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> LINK
-| Donate to Developer | LINK |
-| License | LINK|
+| Click-to-Copy Link | <a href="#" id="copyButton">com.vishwas.Dialogs.aix</a>
+| Donate to Developer | N/A |
+| License | <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>|
 
-<p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
+<p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/2/2b0a9102fe7b8525fc099857ea12addef921b407.aix</p>
+
+## Thunkable Community
+
+>If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+
+
+
 
 ## Download
 
