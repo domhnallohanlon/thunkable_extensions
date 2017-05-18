@@ -6,22 +6,20 @@ author: Sivagiri
 tags: Google Chart Maker
 ---
 
-The Chart Maker extension allows us to create charts using the [Google Charts](https://developers.google.com/chart). The charts generated can be displayed using a [_Web Viewer_.](http://thunkable.com/reference/components/user_interface.html)
-
-[Download Extension](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/edu.mills.appinventor.ChartMaker.aix)
+The Chart Maker extension,developed by Kate Manning and Emily Kager allows us to create charts using the [Google Charts](https://developers.google.com/chart). The charts generated can be displayed using a [_Web Viewer_.](http://thunkable.com/reference/components/user_interface.html)
 
 <!-- more -->
 
 ## Overview
 
-| Extension Developer | LINK |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
-| Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios" hidden>Manual Download</a> LINK|
-| Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> LINK
-| Donate to Developer | LINK |
-| License | LINK|
+| Extension Developer | [Kate Manning](https://github.com/laghee) and [Emily Kager](https://github.com/ekager) |
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=https://raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/ChartMakerExtension_starter_template/ChartMakerExtension_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a> |
+| Get the .aix | <a href="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/edu.mills.appinventor.ChartMaker.aix">Manual Download</a> |
+| Click-to-Copy Link | <a href="" id="copyButton" >edu.mills.appinventor.ChartMaker.aix</a>
+|
 
-<p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
+<p hidden id="copyTarget">https://github.com/MillsCS215AppInventorProj/chartmaker/raw/master/edu.mills.appinventor.ChartMaker.aix</p>
+
 
 ### How Google Charts work
  
@@ -120,6 +118,8 @@ The data is given in the above block can be visualized in the form of the follow
 | 5              |  11.9                               |  17.6                |  10.4                                    |
 | 6              |  8.8                                |  13.6                |  7.7                                     |
 | 7              |  7.6                                |  12.3                |  9.6                                     |
+
+
 #### Explanation of parameters
 
 * _chartTitle_ - The title of the graph that will be displayed.
@@ -140,11 +140,11 @@ The above example uses <span class="block list">list from csv table</span> block
 1,  37.8, 80.8, 41.8\n2,  30.9, 69.5, 32.4\n3,  25.4,   57, 25.7\n4,  11.7, 18.8, 10.5\n5,  11.9, 17.6, 10.4\n6,   8.8, 13.6,  7.7\n7,   7.6, 12.3,  9.6
 ```
 <br>
-</hr>
+
 The same output can be achieved using this block in the _values_ :
 
 ![Another Method](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/alternative.png)
- #### Output
+#### Output
 The above example of DrawLineGraph block produces the following graph :
 ![LineGraph](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/ChartMaker_Extension/LineGraph.jpg)
 

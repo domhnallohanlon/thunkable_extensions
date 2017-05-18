@@ -52,6 +52,13 @@ manyAuthors: true
 # 是否使用gallery
 gallery: false
 
+#permalink for posts.
+collections:
+  posts:
+    output: true
+    permalink : /:categories/:title.html 
+
+
 # Build settings
 markdown: kramdown
 
