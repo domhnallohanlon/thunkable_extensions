@@ -3,7 +3,6 @@ layout: post
 title: Special Tools Extension
 date: 2017-05-16
 categories: Tools
-author: Domhnall
 tags: NMDApps 
 ---
 
@@ -19,8 +18,14 @@ The Special Tools extension by Mika lets you find out information about your use
 | Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
 | Get the .aix | <a href="https://sourceforge.net/projects/released/files/com.NMD.SpecialTools.aix/download" >Manual Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> Not Supported
-| Donate to Developer | LINK |
-| License | LINK|
+| Donate to Developer | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4KKW3W2H3WU9N"><img src="https://img.shields.io/badge/Donate-PayPal-ee6e73.svg?style=flat-square"></a>
+ |
+| License | N/A|
+
+
+
+<!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-ee6e73.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4KKW3W2H3WU9N) -->
+
 
 <p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
 

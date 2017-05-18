@@ -3,7 +3,6 @@ layout: post
 title: Network Tools Extension
 date: 2017-05-16
 categories: Tools
-author: Domhnall
 tags: AndresCotes 
 ---
 
@@ -19,7 +18,7 @@ The Network Tools extension by Andres lets you find out your IP address in IPv4 
 | Get the .aix | <a href="https://groups.google.com/group/mitappinventortest/attach/49b8dce2ca1a3/co.com.dendritas.NetworkTools.aix?part=0.1&authuser=1" >Manual Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton">co.com.dendritas.NetworkTools.aix</a> 
 | Donate to Developer | N/A |
-| License | N/A|
+| License | <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT</a>|
 
 <p hidden id="copyTarget">https://groups.google.com/group/mitappinventortest/attach/49b8dce2ca1a3/co.com.dendritas.NetworkTools.aix?part=0.1&authuser=1</p>
 
