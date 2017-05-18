@@ -32,3 +32,8 @@ The Special Tools extension by Mika lets you find out information about your use
 ## Want to Help?
 There are lots of great extensions being created and updateed everyday. Keeping this site up to date is a huge task. If you want to help out find out more in the <a href="http://community.thunkable.com/t/contributing-to-thunkable-extensions-directory/3125?u=domhnall">Thunkable Community</a>
 
+<hr />
+
+Post written by:
+<a href="https://community.thunkable.com/u/domhnall">Domhnall</a>
+<br>
