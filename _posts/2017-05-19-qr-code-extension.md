@@ -15,7 +15,7 @@ The QR Code extension enables us to create QR codes from texts.
 ## Overview
 
 | Extension Developer | <a href="https://nmd-apps.jimdo.com/extensions/nmd-extensions/#3" target="_blank">NMD Apps</a> |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/QR_code_extension_starter_template/QR_code_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK|
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/QR_code_extension_starter_template/QR_code_extension_starter_template.asc" class="flat_btn" target="_blank" > Open in Thunkable</a> |
 | Get the .aix | <a href="https://sourceforge.net/projects/released/files/com.NMD.QrCode.aix/download" >Source Forge Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.NMD.QrCode.aix</a> Not supported at this time
 | Donate to Developer | <a href="https://goo.gl/Q5b0es" target="_blank"><input type="image" src="http://domhnallohanlon.com/thunkable_extensions/assets/images/donate_pp.png" width="94px" height="20px"></a>|
