@@ -15,6 +15,8 @@ A list of extensions is maintained over on the <a href="
 http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiroo
 "> Thunkable Community</a> but here's a few to give you a flavour of what's available
 
+<p style="background-color:#F05F5F;text-align:center;font-size:125%">All of the extensions listed below have been tested and we can guarantee they are safe to use. There may be many other extensions that aren't mentioned in the list below, you can use them but you will be using them at your own risk as we cannot guarantee they are safe.</p>
+
 ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
 #### [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
@@ -152,6 +154,7 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [Client TCP Extension](https://groups.google.com/d/msg/mitappinventortest/OCzEZC4FpEU/sEVrCeXaCQAJ) - _by: Jean-Rodolphe Letertre_
 - [SMB Manager Extension](https://groups.google.com/d/msg/mitappinventortest/ilbNL4dnZx0/lqmvJEKnAgAJ) - _by: Jörg Hüneburg_
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
+- [Regular Expression Extension](https://community.thunkable.com/t/regular-expression-extension/3657) - _by: Kevin Kun_
 
 ## How to Install an Extension
 
