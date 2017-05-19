@@ -30,7 +30,17 @@
   url: https://nmd-apps.jimdo.com/
   describe: Extensions by NMD Apps
 
+- name:  Pavitra
+  image: assets/images/M.png
+  url: http://pavi2410.tk/
+  describe: Pavitra's Site
+
 - name:  Puravida
   image: assets/images/M.png
   url: http://puravidaapps.com/extensions.php
   describe: Taifun Extensions
+
+- name:  Sander
+  image: assets/images/M.png
+  url: http://www.sanderjochems.nl
+  describe: Sander Jochems

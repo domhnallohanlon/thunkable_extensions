@@ -21,9 +21,13 @@ Developed by Helios, this extension allows you to convert #HEX colours to (R G B
 
 <p hidden id="copyTarget">http://community.thunkable.com/uploads/default/original/2X/e/e754019115c3749479777af7a952fbf347e06927.aix</p>
  
+## Thunkable Community
+
+>If you have any questions about the Colours Extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/colours-extension/2513?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+
 ## Installation
 
-You can either follow all the steps as shown in the animation below or you can add the starter project directly to your thunkable by clicking <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank"> here.</a>
+You can either follow all the steps as shown in the animation below or you can add the starter project directly to your thunkable by <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank">clicking here.</a>
 
 ![installation](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/colours_extension/install_ce.gif)
 

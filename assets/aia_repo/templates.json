@@ -1,4 +1,6 @@
 [
 	{"name":"ColoursExtension","subtitle":"Template for the Colours ColoursExtension","description":"description goes here","thumbnail":"thumb.png","screenshot":"screenshot.png","zip":"colours_extension_starter_template.aia"},
+	{"name":"NetworkToolsExtension","subtitle":"Template for the Network ToolsExtension","description":"description goes here","thumbnail":"thumb.png","screenshot":"screenshot.png","zip":"network_tools_starter_template.aia"},
 	{"name":"ChartMakerExtension_starter_template","subtitle":"Template for the  Chart Maker Extension","description":"A quick start template for the Chart Maker Extension.","link":"","thumbnail":"logo.png","screenshot":"ChartMaker.jpg","zip":"ChartMakerExtension_starter_template.aia"},
+	{"name":"FABExtension_starter_template","subtitle":"Template for the  Floating Action Button Extension","description":"A quick start template for the FAB Extension.","link":"","thumbnail":"logo.png","screenshot":"ChartMaker.jpg","zip":"ChartMakerExtension_starter_template.aia"},
 ]
