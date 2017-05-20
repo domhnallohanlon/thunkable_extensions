@@ -12,9 +12,9 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 
 ## Overview
 
-| Extension Developer | LINK |
+| Extension Developer | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
 | Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
-| Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios" hidden>Manual Download</a> LINK|
+| Get the .aix | <a href="https://community.thunkable.com/t/releasing-the-dialogs-extension/2574/116?u=helios">Manual Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton">com.vishwas.Dialogs.aix</a>
 | Donate to Developer | N/A |
 | License | <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>|
