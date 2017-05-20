@@ -3,7 +3,8 @@ layout: post
 title: Special Tools Extension
 date: 2017-05-16
 categories: Tools
-tags: NMDApps 
+tags: NMDApps
+developer: Mika
 ---
 
 The Special Tools extension by Mika lets you find out information about your users device. What size screen do they have, where are they from, what language are they using? All these questions, and more can answered with this extension.
@@ -15,7 +16,7 @@ The Special Tools extension by Mika lets you find out information about your use
 ## Overview
 
 | Extension Developer | <a href="https://nmd-apps.jimdo.com/extensions/nmd-extensions/#4" target="_blank">NMD Apps</a> |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK|
 | Get the .aix | <a href="https://sourceforge.net/projects/released/files/com.NMD.SpecialTools.aix/download" >Source Forge Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> Not supported at this time
 | Donate to Developer | <a href="https://goo.gl/Q5b0es" target="_blank"><input type="image" src="http://domhnallohanlon.com/thunkable_extensions/assets/images/donate_pp.png" width="94px" height="20px"></a>|
@@ -31,7 +32,7 @@ The Special Tools extension by Mika lets you find out information about your use
 
 ## Thunkable Community
 
->If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/special-tools-extension/1609?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+>If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/special-tools-extension/1609?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
 
 
 ## Blocks

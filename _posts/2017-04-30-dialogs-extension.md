@@ -4,6 +4,7 @@ title: Dialogs Extension
 categories: Design
 author: Conor
 tags: Helios Dialogs HEX RGB
+developer: Helios
 ---
 
 Developed by Helios, this extension allows you to show progress bars, radio list pickers, checkboxes, and more in a dialog box.
@@ -13,7 +14,7 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 ## Overview
 
 | Extension Developer | <a href="http://community.thunkable.com/users/helios/">Helios</a> |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK|
 | Get the .aix | <a href="https://community.thunkable.com/t/releasing-the-dialogs-extension/2574/116?u=helios">Manual Download</a>|
 | Click-to-Copy Link | <a href="#" id="copyButton">com.vishwas.Dialogs.aix</a>
 | Donate to Developer | N/A |
@@ -23,7 +24,7 @@ Developed by Helios, this extension allows you to show progress bars, radio list
 
 ## Thunkable Community
 
->If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+>If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
 
 
 

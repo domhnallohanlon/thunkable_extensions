@@ -1,5 +1,5 @@
---- 
-layout: default 
+---
+layout: default
 ---
 <br>
 
@@ -17,7 +17,9 @@ layout: default
                 {%else%}
 <img  data-position="bottom" data-delay="50" data-tooltip="{{ site.defaultAuthor }}"  class="right tooltipped" style="width: 18px;" src="{{ site.defaultAuthorImage }}" alt="">
                 {% endif %}
-                   {{ post.date | date: "%b %-d, %Y" }}
+                %}{% if post.developer %}
+                   Developed by {{ post.developer }}
+                   {% endif %}
                    </p>
                 <hr>
                 <div id="postsContent">

@@ -3,7 +3,8 @@ layout: post
 title: Network Tools Extension
 date: 2017-05-15
 categories: Tools
-tags: AndresCotes 
+tags: AndresCotes
+developer: Andres Cotes
 ---
 
 The Network Tools extension by Andres lets you find out your IP address in IPv4 or IPv6 format.
@@ -14,9 +15,9 @@ The Network Tools extension by Andres lets you find out your IP address in IPv4 
 ## Overview
 
 | Extension Developer | <a href="https://community.thunkable.com/u/andres_cotes/summary" target="_blank">Andres Cotes</a> |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/network_tools/network_tools_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a>| 
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/network_tools/network_tools_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a>|
 | Get the .aix | <a href="https://groups.google.com/group/mitappinventortest/attach/49b8dce2ca1a3/co.com.dendritas.NetworkTools.aix?part=0.1&authuser=1" >Manual Download</a>|
-| Click-to-Copy Link | <a href="#" id="copyButton">co.com.dendritas.NetworkTools.aix</a> 
+| Click-to-Copy Link | <a href="#" id="copyButton">co.com.dendritas.NetworkTools.aix</a>
 | Donate to Developer | N/A |
 | License | <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT</a>|
 
@@ -28,9 +29,9 @@ This simple extension contains just two blocks, it's very easy to use.
 
 ### Get IP Address
 
-It does what it says on the tin really. This block returns the phone's IP address in IPv4 or IPv6 format. 
+It does what it says on the tin really. This block returns the phone's IP address in IPv4 or IPv6 format.
 
-The input parameter, `useIPv4` takes a logic value, either True or False. 
+The input parameter, `useIPv4` takes a logic value, either True or False.
 
 ![GetIPAddress](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/network_tools_extension/GetIPAddress.png)
 
