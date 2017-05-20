@@ -4,6 +4,7 @@ categories: Design
 title: Image Editor Extension
 <!-- image: /assets/images/demo0.jpg -->
 tags: NMDApps Editor
+developer: Mika
 ---
 
 Developed by Thunkable Community Member, Mika, this extension allows users to set brightness, tints, watermarks, filters, and much, much more to images from their apps.
@@ -14,7 +15,7 @@ Developed by Thunkable Community Member, Mika, this extension allows users to se
 ## Overview
 
 | Extension Developer | LINK |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK| 
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/colours_extension_starter_template.asc" class="flat_btn" target="_blank" hidden> Open in Thunkable</a> LINK|
 | Get the .aix | <a href="http://community.thunkable.com/t/colours-extension/2513?u=helios" hidden>Manual Download</a> LINK|
 | Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.vishwas.Colours.aix</a> LINK
 | Donate to Developer | LINK |
@@ -24,7 +25,7 @@ Developed by Thunkable Community Member, Mika, this extension allows users to se
 
 ## Thunkable Community
 
-If you have any questions about this exetnsio then head on over to the [Thunkable Community](https://community.thunkable.com/t/image-editor-extension-no-internet-connection-required/2495?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+If you have any questions about this exetnsio then head on over to the [Thunkable Community](https://community.thunkable.com/t/image-editor-extension-no-internet-connection-required/2495?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
 
 ### Download
 

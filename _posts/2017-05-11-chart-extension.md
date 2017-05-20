@@ -4,6 +4,7 @@ title: Chart Maker Extension
 categories: Design
 author: Sivagiri
 tags: Google Chart Maker
+developer: Kate Manning and Emily Kager
 ---
 
 The Chart Maker extension,developed by Kate Manning and Emily Kager allows us to create charts using the [Google Charts](https://developers.google.com/chart). The charts generated can be displayed using a [_Web Viewer_.](http://thunkable.com/reference/components/user_interface.html)
@@ -22,19 +23,19 @@ The Chart Maker extension,developed by Kate Manning and Emily Kager allows us to
 
 
 ### How Google Charts work
- 
+
 Google Charts require the data to be in the form of table with rows and columns.
 This extension turns the input provided into a table to generate a chart
 
 
 Each column should have a label and type of data which will be entered in it . Each chart requires different format of the table to be followed. The structure of tables of different charts are discussed in the next section.
 
-# Blocks 
+# Blocks
 
 
 ### DrawPieChart
 
-The "DrawPieChart" block is used to create a Pie Chart. [Here](https://eagereyes.org/techniques/pie-charts) is a great article that might help in understanding pie charts. 
+The "DrawPieChart" block is used to create a Pie Chart. [Here](https://eagereyes.org/techniques/pie-charts) is a great article that might help in understanding pie charts.
 
 The following example demonstrates the usage of this block :
 

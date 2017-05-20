@@ -3,7 +3,8 @@ layout: post
 title: FAB Extension
 date: 2017-05-14
 categories: Design
-tags: Pavitra Sander FAB 
+tags: Pavitra Sander FAB
+developer: Pavitra and Sander
 ---
 
 The Floating Action Button, or FAB, is one of the most distinctive design features of Material Design, and with this extension you can easily add one to your app.  
@@ -13,9 +14,9 @@ The Floating Action Button, or FAB, is one of the most distinctive design featur
 ## Overview
 
 | Extension Developer | <a href="https://community.thunkable.com/u/pavi2410/" target="_blank">Pavitra</a> and <a href="http://www.sanderjochems.nl/appinventor/extension/4/floatingactionbutton" target="_blank">Sander</a> |
-| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/fab/fab_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a>| 
+| Clone Starter .aia | <a href="http://app.thunkable.com/?repo=raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/fab/fab_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a>|
 | Get the .aix | <a href="https://community.thunkable.com/uploads/default/original/2X/5/594cd84a60e4d7dce28de3af3eb889a8ac47a2f7.aix" >Manual Download</a>|
-| Click-to-Copy Link | <a href="#" id="copyButton">com.sander0542_pavitra.FAB.aix</a> 
+| Click-to-Copy Link | <a href="#" id="copyButton">com.sander0542_pavitra.FAB.aix</a>
 | Donate to Developers | N/A |
 | License | N/A </a>|
 
@@ -23,7 +24,7 @@ The Floating Action Button, or FAB, is one of the most distinctive design featur
 
 ## Thunkable Community
 
->If you have any questions about the FAB Extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=domhnall) where you'll find lots of amazing people who are happy to help you out. 
+>If you have any questions about the FAB Extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
 
 ## Installation
 
