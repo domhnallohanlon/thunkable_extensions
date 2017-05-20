@@ -17,9 +17,9 @@ layout: default
                 {%else%}
 <img  data-position="bottom" data-delay="50" data-tooltip="{{ site.defaultAuthor }}"  class="right tooltipped" style="width: 18px;" src="{{ site.defaultAuthorImage }}" alt="">
                 {% endif %}
-                %}{% if post.developer %}
+                {% if post.developer %}
                    Developed by {{ post.developer }}
-                   {% endif %}
+                {% endif %}
                    </p>
                 <hr>
                 <div id="postsContent">
