@@ -23,6 +23,10 @@ The Network Tools extension by Andres lets you find out your IP address in IPv4 
 
 <p hidden id="copyTarget">https://groups.google.com/group/mitappinventortest/attach/49b8dce2ca1a3/co.com.dendritas.NetworkTools.aix?part=0.1&authuser=1</p>
 
+## Installation
+
+If you need any help installing an extension then take a look at our <a href="http://domhnallohanlon.com/thunkable_extensions/about.html#how_to">"How to Install an Extension"</a> guide.
+
 ## Blocks
 
 This simple extension contains just two blocks, it's very easy to use.

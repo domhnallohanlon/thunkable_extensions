@@ -32,8 +32,11 @@ The Special Tools extension by Mika lets you find out information about your use
 
 ## Thunkable Community
 
->If you have any questions about this extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/special-tools-extension/1609?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
+>If you have any questions about the Special Tools extension then head on over to the [Thunkable Community](https://community.thunkable.com/t/special-tools-extension/1609?u=domhnall) where you'll find lots of amazing people who are happy to help you out.
 
+## Installation
+
+If you need any help installing an extension then take a look at our <a href="http://domhnallohanlon.com/thunkable_extensions/about.html#how_to">"How to Install an Extension"</a> guide.
 
 ## Blocks
 

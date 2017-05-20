@@ -15,11 +15,16 @@ A list of extensions is maintained over on the <a href="
 http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiroo
 "> Thunkable Community</a> but here's a few to give you a flavour of what's available
 
-<p style="background-color:#F05F5F;text-align:center;font-size:125%">All of the extensions listed below have been tested and we can guarantee they are safe to use. There may be many other extensions that aren't mentioned in the list below, you can use them but you will be using them at your own risk as we cannot guarantee they are safe.</p>
+<p style="background-color:#F05F5F;font-size:125%; padding: 10px">
+In our reviews we have used the original extensions and linked directly to the developers download. <br>
+Whenever you use an extension in your app you should make sure that that it comes directly from the developer and has not been modified by a third party. <br>
+The following list is provided for reference only and all extensions are  subject to the licence of the original developer.
+</p>
 
 ### [Thunkable Community Extensions](http://community.thunkable.com/c/thunkable-extensions)
 
-#### [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/)
+<!-- [NMD Extensions](https://nmd-apps.jimdo.com/extensions/nmd-extensions/) -->
+#### Mika's Extensions
 - [Simple Mathematics Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#1)
 - [Body Mass Index Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#2)
 - [QR Code Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#3)
@@ -38,6 +43,7 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [Root Checker Extension](http://community.thunkable.com/t/root-checker-extension/1587?u=pavi2410)
 - [Arduino USB Serial Extension](https://groups.google.com/d/msg/mitappinventortest/WZCUtKAfwj0/4Na63LmnAQAJ)
 - [Phone Info Extension](http://community.thunkable.com/t/phone-info-extension/1600?u=pavi2410)
+- [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=pavi2410) - _By: Pavi and Sander_
 
 
 #### Sander's Extensions 
@@ -46,10 +52,9 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [BluetoothPlus Extension](http://community.thunkable.com/t/bluetoothplus-extension/2706?u=sander0542)
 - [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
 - [Vibrate Extension](http://community.thunkable.com/t/vibrate-extension/3272?u=sander0542)
+- [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=sander0542) - _By: Pavi and Sander_
 
-- [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488) - _By: Pavi and Sander_
-
-#### Andres Daniel
+#### Andres Daniel Cotes
 - [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ)
 - [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ)
 - [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE)
@@ -66,7 +71,8 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 
 <hr />
 
-### [Pura Vida Apps Extensions](https://puravidaapps.com/extensions.php)
+[Pura Vida Apps Extensions](https://puravidaapps.com/extensions.php)
+### Taifun's Extensions
 
 - [Account Manager Extension](https://puravidaapps.com/accountmanager.php)
 - [AES Encryption Extension](https://puravidaapps.com/aes.php)
@@ -156,7 +162,7 @@ http://community.thunkable.com/t/index-of-available-extensions/2680?u=barreeeiro
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
 - [Regular Expression Extension](https://community.thunkable.com/t/regular-expression-extension/3657) - _by: Kevin Kun_
 
-## How to Install an Extension
+## How to Install an Extension {#how_to}
 
 ### Step 1
 Navigate to <a href="http://app.thunkable.com">app.thunkable.com</a> and login using your Google Account.
@@ -170,7 +176,7 @@ Open an exising project or create a new one.
 To create a new project, click the "Create New App" button at the top of the screen, just under the Thunkabe logo.
 
 ### Step 3
-Find the extension you want to import into your app. There is a full list of Thunkable extensions on our <a href="">homepage</a>
+Find the extension you want to import into your app. There is a full list of Thunkable extensions on our <a href="http://domhnallohanlon.com/thunkable_extensions/about.html">homepage</a>
 
 ### Step 4
 Either:

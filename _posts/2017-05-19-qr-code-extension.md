@@ -23,6 +23,10 @@ The QR Code extension enables us to create QR codes from texts.
 | License | <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC 4.0 BY-SA</a>|
 
 
+## Installation
+
+If you need any help installing an extension then take a look at our <a href="http://domhnallohanlon.com/thunkable_extensions/about.html#how_to">"How to Install an Extension"</a> guide.
+
 ## Blocks
 
 
