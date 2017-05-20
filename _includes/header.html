@@ -43,7 +43,9 @@
       {% endif %} {% endfor %} {% if page.url == a %}
       <h1>{{ page.title | upcase}}</h1>
       {% unless page.describe %}
-      <div class="ge">{{ page.date | date: "%b %-d, %Y" }}</div>
+      <div class="ge">{% if page.developer %}
+         Developed by {{ page.developer }}
+         {% endif %}</div>
       {% else %}
       <div class="ge">{{ page.describe }}</div>
       {% endunless %}
@@ -143,7 +145,7 @@
    <ul>
    <li class="post-list"><a class="waves-effect post-list black-text" data-tooltip="{{#date}}{{pubdate}}{{/date}}" href="{% endraw %}{{ site.baseurl }}{% raw %}{{url}}">{{title}}</a></li>
    </ul>
-    
+
   {{/entries}}
   </div>
 </script>
