@@ -5,7 +5,8 @@ layout: default
 
 <!--遍历要显示的文章-->
 <div class="b e">
-    {% for post in site.posts %}
+   {% assign sorted_posts = site.posts | sort: 'title' %}
+   {% for post in sorted_posts %}
     {% unless post.image %}
         <div class="d hx hf gu gallery-item gallery-expand {{post.categories}} ce" data-url="{{ post.url | prepend: site.baseurl }}"><div class="placeholder">
             <div class="gallery-curve-wrapper">
@@ -72,7 +73,9 @@ layout: default
                 {%else%}
 <img  data-position="bottom" data-delay="50" data-tooltip="{{ site.defaultAuthor }}"  class="right tooltipped" style="width: 18px;" src="{{ site.defaultAuthorImage }}" alt="">
                 {% endif %}
-                        {{ post.date | date: "%b %-d, %Y" }}</p>
+                {% if post.developer %}Developed by {{ post.developer }}
+                {% endif %}
+                </p>
                 </div>
                 {% if site.gallery %}
                 <div class="gallery-body">
