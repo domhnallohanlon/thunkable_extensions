@@ -13,7 +13,7 @@ The Chart Maker extension,developed by Kate Manning and Emily Kager allows us to
 
 ## Overview
 
-| Extension Developer | [Kate Manning](https://github.com/laghee) and [Emily Kager](https://github.com/ekager) |
+| Extension Developer | [Kate Manning](https://github.com/laghee), [Emily Kager](https://github.com/ekager) and Ellen Spertus|
 | Clone Starter .aia | <a href="http://app.thunkable.com/?repo=https://raw.githubusercontent.com/domhnallohanlon/thunkable_extensions/gh-pages/assets/aia_repo/ChartMakerExtension_starter_template/ChartMakerExtension_starter_template.asc" class="flat_btn" target="_blank"> Open in Thunkable</a> |
 | Get the .aix | <a href="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/edu.mills.appinventor.ChartMaker.aix">Manual Download</a> |
 | Click-to-Copy Link | <a href="" id="copyButton" >edu.mills.appinventor.ChartMaker.aix</a>
