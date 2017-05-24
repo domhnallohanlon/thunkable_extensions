@@ -1,4 +1,6 @@
-
+- name: Domhnall
+  image: assets/images/links/d.png
+  
 - name: Conor
   image: assets/images/links/c.png
 
