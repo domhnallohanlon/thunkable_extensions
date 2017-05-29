@@ -19,7 +19,7 @@ The Vibrate Extension adds some more functionality to the current vibrate method
 | Extension Developer | <a href="https://community.thunkable.com/u/Sander0542/" target="_blank">Sander</a>|
 | Clone Starter .aia | <a href="" class="flat_btn" target="_blank" hidden> Open in Thunkable</a>LINK|
 | Get the .aix | <a href="http://www.sanderjochems.nl/appinventor/extension/3/vibrate" >Download</a>|
-| Click-to-Copy Link | <a href="#" id="copyButton" hidden>com.sanderjochems.Vibrate.aix</a>|
+| Click-to-Copy Link | <a href="#" id="copyButton">com.sanderjochems.Vibrate.aix</a>|
 | Donate to Developer | <a href="https://play.google.com/store/apps/details?id=com.thunkable.android.sander542jochems.Donate" target="_blank"><input type="image" src="http://domhnallohanlon.com/thunkable_extensions/assets/images/donate_gp.png" width="94px" height="20px"></a>|
 | License | <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC 4.0 BY</a>|
 
@@ -63,7 +63,7 @@ This block allows you to create vibrations in a pattern.
 <br>
 Used to detect when the 'CancelVibrate' block is used.
 
-### Error Occurred
+### ErrorOccurred
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/vibrate_extension/ErrorOccurredBlock.png" alt="ErrorOccurredBlock">
 <br>
 If an error occurs when using the extension in an app, the blocks inside this event will be called.
