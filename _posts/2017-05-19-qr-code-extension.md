@@ -6,6 +6,8 @@ categories: Tools
 tags: NMDApps QRcode
 author: Sivagiri
 developer: Mika
+contributors:
+- Conor
 
 ---
 
@@ -27,13 +29,49 @@ The QR Code extension enables us to create QR codes from texts.
 
 If you need any help installing an extension then take a look at our <a href="http://domhnallohanlon.com/thunkable_extensions/about.html#how_to">"How to Install an Extension"</a> guide.
 
+<p style="background-color:#F05F5F;font-size:125%; padding: 10px">
+These blocks are for the latest version (Version 3) of the extension.
+</p>
+
 ## Blocks
+### Background Color
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/BackgroundColorBlock.png" alt="BackgroundColorBlock">
 
+### Front Color
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/FrontColorBlock.png" alt="FrontColorBlock">
 
+### Size
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/SizeBlock.png" alt="SizeBlock">
+
+### Text
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/TextBlock.png" alt="TextBlock">
+
+### Margin
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/MarginBlock.png" alt="MarginBlock">
+
+### Format
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/FormatBlock.png" alt="FormatBlock">
+
+### Charset
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/CharsetBlock.png" alt="CharsetBlock">
+
+### Create
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/CreateBlock.png" alt="CreateBlock">
+
+### Got Response
+<img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/qr_code_extension/v3/GotResponseBlock.png" alt="GotResponseBlock">
+
+<hr/>
+
+<p style="background-color:#F05F5F;font-size:125%; padding: 10px">
+The blocks below are for Version 1 and 2 of the extension.
+</p>
+
+## Blocks
 
 **Create** (QR code)
 
-![CreateQRCode](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/CreateQR.png?raw=true)
+![CreateQRCode](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/v1/qr_code_extension/CreateQR.png?raw=true)
 
 This block is used to create a QR code from a text that is given in the _Text_ parameter.
 
@@ -47,7 +85,7 @@ For example,if the size is specified as 250 , then the generated QR code will ha
 
 **DefaultText**
 
-![DefaultText](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/Default%20Text.png?raw=true)
+![DefaultText](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/v1/qr_code_extension/Default%20Text.png?raw=true)
 
 This block contains the text "Hello World !"
 
@@ -55,7 +93,7 @@ This block contains the text "Hello World !"
 
 The following blocks are of an app that generates QR code of the text given in a textbox and display them in both a _WebViewer_ and a _Image_ component.
 
-![Example Blocks](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/blocks_example.png?raw=true)
+![Example Blocks](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/v1/blocks_example.png?raw=true)
 
 
 ## Troubleshooting
@@ -63,7 +101,7 @@ The following blocks are of an app that generates QR code of the text given in a
 The **Create** block needs to have an non-empty text in the _text_ parameter.
 If an empty text is used, following error is shown in the Webviewer :
 
-![Empty Text Error](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/error1.jpg?raw=true)
+![Empty Text Error](https://github.com/domhnallohanlon/thunkable_extensions/blob/gh-pages/assets/post_assets/qr_code_extension/v1/error1.jpg?raw=true)
 
 If an _Image_ component is used to display the generated QR code with an empty text, the image will not be shown anything and will be blank.
 

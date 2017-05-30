@@ -54,16 +54,16 @@ If, for whatever reason, you need to stop the device from vibrating, use this me
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/vibrate_extension/VibratePatternBlock.png" alt="VibratePatternBlock">
 <br>
 This block allows you to create vibrations in a pattern.
-* The 'vibrate' property is how long you want it to vibrate for (in miliseconds).
-* The 'delay' is works in conjunction with the 'repeat' property, it specifies the time delay before repeating the vibration.
-* The 'repeat' property can be set to "true" or "false".
+* Vibrate - is how long you want it to vibrate for (in miliseconds).
+* Delay - works in conjunction with the 'repeat' property, it specifies the time delay before repeating the vibration.
+* Repeat - property can be set to "true" or "false".
 
 ### VibrateCancelled
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/vibrate_extension/VibrateCancelledBlock.png" alt="VibrateCancelledBlock">
 <br>
 Used to detect when the 'CancelVibrate' block is used.
 
-### ErrorOccurred
+### Error Occurred
 <img src="http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/vibrate_extension/ErrorOccurredBlock.png" alt="ErrorOccurredBlock">
 <br>
 If an error occurs when using the extension in an app, the blocks inside this event will be called.
