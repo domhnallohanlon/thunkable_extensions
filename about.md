@@ -36,6 +36,7 @@ The following list is provided for reference only and all extensions are  subjec
 #### Helios' Extensions 
 - [Dialogs Extension](http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios)
 - [Colours Extension](http://community.thunkable.com/t/colours-extension/2513?u=helios)
+- [Extra Components Extension](https://community.thunkable.com/t/the-extracomponents-extension/4125?u=helios)
 
 
 #### Pavitra's Extensions 
@@ -52,6 +53,7 @@ The following list is provided for reference only and all extensions are  subjec
 - [BluetoothPlus Extension](http://community.thunkable.com/t/bluetoothplus-extension/2706?u=sander0542)
 - [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
 - [Vibrate Extension](http://community.thunkable.com/t/vibrate-extension/3272?u=sander0542)
+- [Convert Extension](https://community.thunkable.com/t/convert-extension/3779?u=sander0542)
 - [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=sander0542) - _By: Pavi and Sander_
 
 #### Andres Daniel Cotes
@@ -61,6 +63,7 @@ The following list is provided for reference only and all extensions are  subjec
 - [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw)
 - [Dendritas Table Extension](https://groups.google.com/d/msg/mitappinventortest/B16XCAmuBJo/3EYzPa0ABAAJ)
 - [MQTT Extension for Arduino and ESP8266](https://groups.google.com/d/msg/mitappinventortest/PguwKcn5PzY/Kg8BJEPGAQAJ)
+- [Memory Size Extension](https://community.thunkable.com/t/memory-size-extension-21-05-2017/3764/)
 
 <hr />
 
@@ -161,6 +164,9 @@ The following list is provided for reference only and all extensions are  subjec
 - [SMB Manager Extension](https://groups.google.com/d/msg/mitappinventortest/ilbNL4dnZx0/lqmvJEKnAgAJ) - _by: Jörg Hüneburg_
 - [ChartMaker Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/qtYWkR8rBxM) - _by: Kate Manning and Emily Kager_
 - [Regular Expression Extension](https://community.thunkable.com/t/regular-expression-extension/3657) - _by: Kevin Kun_
+- [Simple Tools Extension](https://community.thunkable.com/t/simple-tools-extension/3724?=ILoveThunkable) - _by: ILoveThunkable_
+- [WebViewer Dialog Extension](https://community.thunkable.com/t/releasing-the-web-viewer-dialog-extension/3956?u=ILoveThunkable) - _by: ILoveThunkable_
+- [Countdown Extension](https://community.thunkable.com/t/countdown-extension/3730?u=LukeGackle) - _by: LukeGackle_
 
 ## How to Install an Extension {#how_to}
 
