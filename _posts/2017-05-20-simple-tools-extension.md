@@ -4,6 +4,8 @@ title: Simple Tools Extension
 date: 2017-05-20
 categories: Tools
 author: Moliata
+contributors:
+- Domhnall
 tags: Moliata Simple Twitter Toast
 developer: Moliata
 ---
