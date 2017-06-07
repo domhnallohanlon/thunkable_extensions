@@ -75,7 +75,7 @@ Returns Nothing
 This event fires when cookies have been removed from the current context. Note this event will not fire for versions of Android prior to API level 21(Android Lollipop). The boolean value `isCookiesRemoved` relates to whether cookies were removed, if there are no cookies set this returns false.
 
 
-![CookieSet](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/CookieSet.jpg)
+![CookieSet](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/CookiesSet.jpg)
 
 This event fires when a cookie has been set, the boolean value isCookieSet relates to whether the cookie was set successfully.
 
@@ -89,10 +89,6 @@ This sample code shows how easy it is to get, set and clear cookies in your app.
 
 ![Sample Code](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/use_case.jpg)
 
-
-The output of the above code will look like this:
-
-![Demo](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/countdown_extension/extensiontest.jpg)
 
 ## Want to Help?
 There are lots of great extensions being created and updateed everyday. Keeping this site up to date is a huge task. If you want to help out find out more in the <a href="http://community.thunkable.com/t/contributing-to-thunkable-extensions-directory/3125?u=domhnall">Thunkable Community</a>
