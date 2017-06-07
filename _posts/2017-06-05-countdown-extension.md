@@ -59,7 +59,7 @@ Returns the number of years between given start date and end date. Arguments mus
 
 Returns long (duration)
 
-![GetDurationInMonths](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/countdown_extension/.jpg)
+![GetDurationInMonths](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/countdown_extension/GetDurationInMonths.jpg)
 
 Returns the number of months between given start date and end date. Arguments must be formatted correctly like MM/DD/YYYY hh:mm:ss, or MM/DD/YYYY or hh:mm. Return value is processed through Math.floor to retrieve the nearest whole number to return.
 
@@ -113,7 +113,7 @@ This sample code creates an app the counts down to Google I/O 2020
 
 The output of the above code will look like this:
 
-![Demo](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/countdown_extension/extensiontest.jpg)
+![Demo](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/countdown_extension/extensiontest.png)
 
 ## Want to Help?
 There are lots of great extensions being created and updateed everyday. Keeping this site up to date is a huge task. If you want to help out find out more in the <a href="http://community.thunkable.com/t/contributing-to-thunkable-extensions-directory/3125?u=domhnall">Thunkable Community</a>
