@@ -69,13 +69,13 @@ Returns Nothing
 
 ### Events
 
-![CookiesRemoved](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/.jpg)
+![CookiesRemoved](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/CookiesRemoved.jpg)
 
 
 This event fires when cookies have been removed from the current context. Note this event will not fire for versions of Android prior to API level 21(Android Lollipop). The boolean value `isCookiesRemoved` relates to whether cookies were removed, if there are no cookies set this returns false.
 
 
-![CookieSet](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/.jpg)
+![CookieSet](http://domhnallohanlon.com/thunkable_extensions/assets/post_assets/webview_cookie_tools_extension/CookieSet.jpg)
 
 This event fires when a cookie has been set, the boolean value isCookieSet relates to whether the cookie was set successfully.
 
