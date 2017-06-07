@@ -11,4 +11,13 @@
   image: assets/images/links/s.png
 
 - name: Moliata
-  image: assets/images/M.png
+  image: assets/images/links/m.png
+
+- name: Helios
+  image: assets/images/links/h.png
+
+- name: Luke
+  image: assets/images/links/l.png
+
+- name: Pavitra
+  image: assets/images/links/p.png
