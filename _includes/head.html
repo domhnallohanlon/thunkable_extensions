@@ -17,10 +17,10 @@
  <meta name="description" content="Your in-depth guide to extensions for Thunkable, App Inventor and Appy Builder apps.">
 
 <meta property="og:title" content="Thunkable Extension Directory" />
-<meta property="og:description" content="Your in-depth guide to extensions for Thunkable, App Inventor and Appy Builder apps." />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Your in-depth guide to extensions for Thunkable, App Inventor and Appy Builder apps.{% endif %}" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://domhnallohanlon.com/thunkable_extensions/" />
+<meta property="og:url" content="{{ page.url | prepend:  site.baseurl | prepend: site.url }}" />
 <meta property="og:image" content="http://domhnallohanlon.com/thunkable_extensions/assets/images/icon/logo.png" />
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/gallery-materialize.min.opt.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/prism.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  
+
   <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.baseurl }}">
 {% else %}
   <link rel="icon" href="{{ site.icon-32x32 | prepend: site.cdnurl }}" sizes="32x32">
@@ -52,7 +52,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/gallery-materialize.min.opt.css" | prepend: site.cdnurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/prism.css" | prepend: site.cdnurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.cdnurl }}">
-  
+
   <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.cdnurl }}">
 {% endunless %}
 </head>
