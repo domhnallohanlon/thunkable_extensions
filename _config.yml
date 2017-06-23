@@ -39,7 +39,8 @@ header-bg: /assets/images/bg.png
 #cdnurl: https://jekyll-materialize.b0.upaiyun.com/
 
 #google_analytics
-google_analytics: UA-60993769
+#google_analytics: UA-60993769
+google_analytics: UA-101544059-1
 
 # 分享功能
 # todd
