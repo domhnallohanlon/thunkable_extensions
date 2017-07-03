@@ -22,7 +22,7 @@ Click to read more.
 
 ## Thunkable Community
 
-If you have any questions about this exetnsio then head on over to the [Thunkable Community](http://community.thunkable.com/t/bluetoothplus-extension/2706?u=sander0542) where you'll find lots of amazing people who are happy to help you out.
+If you have any questions about this exetnsio then head on over to the [Thunkable Community](https://community.thunkable.com/t/sound-manager-extension/4873?u=sander0542) where you'll find lots of amazing people who are happy to help you out.
 
 
 ## Blocks
