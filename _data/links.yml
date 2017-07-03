@@ -41,8 +41,8 @@
   describe: Taifun's Extensions
 
 - name:  Sander
-  image: assets/images/M.png
-  url: http://www.sanderjochems.nl
+  image: assets/images/links/sander.png
+  url: https://www.sanderjochems.com
   describe: Sander Jochems
 
 - name:  Luke
