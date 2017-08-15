@@ -2,32 +2,32 @@
 - name: twitter
   url: https://twitter.com/domhnallohanlon
 
-- name: facebook
+#- name: facebook
+#  url: 
+
+#- name: weibo
   url: 
 
-- name: weibo
-  url: 
+#- name: instagram
+#  url: 
 
-- name: instagram
-  url: 
-
-- name: tumblr
-  url: 
+#- name: tumblr
+#  url: 
 
 - name: github
   url: https://github.com/domhnallohanlon
 
-- name: linkedin
-  url: 
+#- name: linkedin
+#  url: 
 
-- name: zhihu
-  url: 
+#- name: zhihu
+#  url: 
 
-- name: bilibili
-  url: 
+#- name: bilibili
+#  url: 
 
-- name: telegram
-  url: 
+#- name: telegram
+#  url: 
 
-- name: gplus
-  url:
+#- name: gplus
+#  url:
