@@ -31,15 +31,17 @@ The following list is provided for reference only and all extensions are  subjec
 - [Special Tools Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#4)
 - [Ocr Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#5)
 - [Image Editor Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#6)
+- [Click Listener Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#8)
+- [Gesture Handler Extension](https://nmd-apps.jimdo.com/extensions/nmd-extensions/#9)
 
 
-#### Helios' Extensions 
+#### Helios' Extensions
 - [Dialogs Extension](http://community.thunkable.com/t/releasing-the-dialogs-extension/2574?u=helios)
 - [Colours Extension](http://community.thunkable.com/t/colours-extension/2513?u=helios)
 - [Extra Components Extension](https://community.thunkable.com/t/the-extracomponents-extension/4125?u=helios)
 
 
-#### Pavitra's Extensions 
+#### Pavitra's Extensions
 - [Free InAppPurchases Extension](http://community.thunkable.com/t/free-iap-extension/2082?u=pavi2410)
 - [Root Checker Extension](http://community.thunkable.com/t/root-checker-extension/1587?u=pavi2410)
 - [Arduino USB Serial Extension](https://groups.google.com/d/msg/mitappinventortest/WZCUtKAfwj0/4Na63LmnAQAJ)
@@ -47,23 +49,53 @@ The following list is provided for reference only and all extensions are  subjec
 - [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=pavi2410) - _By: Pavi and Sander_
 
 
-#### Sander's Extensions 
+#### Sander's Extensions
 <!-- <small>@Sander0542</small> -->
 
-- [BluetoothPlus Extension](http://community.thunkable.com/t/bluetoothplus-extension/2706?u=sander0542)
-- [ScreenTools Extension](http://community.thunkable.com/t/screentools-extension/2889?u=sander0542)
-- [Vibrate Extension](http://community.thunkable.com/t/vibrate-extension/3272?u=sander0542)
-- [Convert Extension](https://community.thunkable.com/t/convert-extension/3779?u=sander0542)
+- [BluetoothPlus Extension](https://www.sanderjochems.com/appinventor/extension/1/bluetoothplus)
+- [ScreenTools Extension](https://www.sanderjochems.com/appinventor/extension/2/screentools)
+- [Vibrate Extension](https://www.sanderjochems.com/appinventor/extension/3/vibrate)
+- [Convert Extension](https://www.sanderjochems.com/appinventor/extension/5/convert)
 - [Floating Action Button Extension](http://community.thunkable.com/t/fab-extension-material-ui-feature/3488?u=sander0542) - _By: Pavi and Sander_
+- [Sound Manager Extension](https://www.sanderjochems.com/appinventor/extension/6/soundmanager)
 
 #### Andres Daniel Cotes
+- [ActionBar Extension](https://community.thunkable.com/t/actionbar-extension/4985?u=Andres_Cotes)
+- [Animation Extension](https://community.thunkable.com/t/extension-animacion/5015?u=Andres_Cotes)
+- [Animation Color Background Extension](https://community.thunkable.com/t/animation-color-background-extension/5275?u=Andres_Cotes)
+- [CallLog and WhatsApp Utils Extension](https://community.thunkable.com/t/calllog-and-whatsapp-utils-extension/5741?u=Andres_Cotes)
+- [Create Pdf from Table Extension](https://groups.google.com/d/msg/mitappinventortest/KHg0-dptfUg/WGuIR1y2AQAJ)
 - [CSV to Json encode Extension](https://groups.google.com/d/msg/mitappinventortest/Dcu3ueYnhl0/dDdyR_38EAAJ)
-- [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ)
-- [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE)
-- [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw)
+- [Custom Listview Extension](https://community.thunkable.com/t/extension-customlistview-paid-extension/5535?u=Andres_Cotes)
 - [Dendritas Table Extension](https://groups.google.com/d/msg/mitappinventortest/B16XCAmuBJo/3EYzPa0ABAAJ)
-- [MQTT Extension for Arduino and ESP8266](https://groups.google.com/d/msg/mitappinventortest/PguwKcn5PzY/Kg8BJEPGAQAJ)
+- [Display Table in Webviewer Extension](https://groups.google.com/d/msg/mitappinventortest/B16XCAmuBJo/3EYzPa0ABAAJ)
+- [Floating Action Button with Material Icon Extension](https://community.thunkable.com/t/demo-fab-with-material-icon-ttf-paid-extension/4712?u=Andres_Cotes)
+- [Gauge Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/VfEcXlmtwdw)
+- [Horizontal Arrangement Addon Extension](http://community.appybuilder.com/t/horizontalarrangementaddons-extension/673?u=Andres_Cotes)
+- [IP Address Extension](https://groups.google.com/forum/#!category-topic/mitappinventortest/iRgyTGMR7dE)
+- [Joystick Extension](https://community.thunkable.com/t/joystick-extension/5693?u=Andres_Cotes)
+- [JSignature Extension](http://community.appybuilder.com/t/extension-jsignature/442?u=Andres_Cotes)
 - [Memory Size Extension](https://community.thunkable.com/t/memory-size-extension-21-05-2017/3764/)
+- [MQTT Extension for Arduino and ESP8266](https://groups.google.com/d/msg/mitappinventortest/PguwKcn5PzY/Kg8BJEPGAQAJ)
+- [Network Tools Extension](https://groups.google.com/d/msg/mitappinventortest/iRgyTGMR7dE/o6Eszo2bBAAJ)
+- [Palette Color Extension](https://community.thunkable.com/t/extension-palettecolor/5668?u=Andres_Cotes)
+- [Search Actionbar Extension](https://community.thunkable.com/t/search-actionbar-extension/4649?u=Andres_Cotes)
+- [Sidebar Navigation Extension](https://community.thunkable.com/t/extension-sidebar-navigation/5376?u=Andres_Cotes)
+- [Snackbar Extension](https://community.thunkable.com/t/snackbar-extension-update-20-06-2017/4337?u=Andres_Cotes)
+- [SQlite Addon Extension](https://groups.google.com/forum/#!msg/mitappinventortest/ZjkCYz7RQ5U/ZG0jFM80AgAJ)
+- [Table Extension](https://community.thunkable.com/t/extension-dendritastable-csvtohtml-list-to-html-list-to-json-datatables-js-14-05-17/3399?u=Andres_Cotes)
+- [Toast with X Y values Extension](https://groups.google.com/d/msg/mitappinventortest/nPOokIDvFOE/jv1oztz8EAAJ)
+- [UDP client Extension](https://community.thunkable.com/t/udp-client-extension/5831?u=Andres_Cotes)
+- [UDP server Extension](http://community.appybuilder.com/t/server-udp-extension-paid-extension/735?u=Andres_Cotes)
+- [Vertical Scroll Arrangement AddOn Extension](http://andrescotes.cf/verticalscrollarramentaddons/)
+- [Youtube Extension](https://community.thunkable.com/t/youtube-extension/5164?u=Andres_Cotes)
+
+
+#### LukeGackle's Extensions
+- [Countdown Extension](https://community.thunkable.com/t/countdown-extension/3730?u=LukeGackle)
+- [Webview Tools Extension](https://thunkableblocks.blogspot.com.au/2017/06/webviewtools-extension-for-app-inventor.html)
+- [WebViewCookieTools Extension](https://thunkableblocks.blogspot.com.au/2017/06/webviewcookietools-extension.html)
+- [JSON Tools Extension](https://thunkableblocks.blogspot.com.au/2017/07/jsontools-extension.html)
 
 <hr />
 
@@ -96,6 +128,7 @@ The following list is provided for reference only and all extensions are  subjec
 - [Light Sensor Extension](https://puravidaapps.com/light.php)
 - [Magnetic Sensor Extension](https://puravidaapps.com/magnetic.php)
 - [Mail Extension](https://puravidaapps.com/mail.php)
+- [Math Extension](https://puravidaapps.com/math.php)
 - [Simple Notification Extension](https://puravidaapps.com/notification.php)
 - [PDF Extension](https://puravidaapps.com/pdf.php)
 - [Settings Extension](https://puravidaapps.com/settings.php)
@@ -113,12 +146,14 @@ The following list is provided for reference only and all extensions are  subjec
 
 ### [MIT Extensions](http://appinventor.mit.edu/extensions/)
 
-- [BluetoothLE](http://appinventor.mit.edu/extensions/data/extensions/edu.mit.appinventor.BluetoothLE.aix)
+- [BluetoothLE - old](http://appinventor.mit.edu/extensions/data/extensions/edu.mit.appinventor.BluetoothLE.aix)
+- [BluetoothLE - new](http://iot.appinventor.mit.edu/assets/resources/edu.mit.appinventor.ble.aix)
 - [VectorArithmetic](http://appinventor.mit.edu/extensions/data/extensions/com.gmail.at.ehondev.VectorArithmetic.aix)
 - [ImageProcessor](http://appinventor.mit.edu/extensions/data/extensions/ai.cdk.justus.ImageProcessor.aix)
 - [SoundAnalysis](http://appinventor.mit.edu/extensions/data/extensions/com.gmail.at.oumar.dot.mouha.SoundAnalysis.aix)
 - [ScaleDetector](http://appinventor.mit.edu/extensions/data/extensions/edu.mit.appinventor.ScaleDetector.aix)
 - [Rotation Detector Extension](http://ai2.appinventor.mit.edu/reference/other/extensionsRotation.html)
+- [Microbit Extension](http://iot.appinventor.mit.edu/assets/resources/com.bbc.microbit.profile.aix)
 
 <hr />
 
@@ -141,6 +176,8 @@ The following list is provided for reference only and all extensions are  subjec
 - [DateUtils Extension](https://amerkashi.wordpress.com/2017/03/11/dateutils-extension/)
 - [TextUtils Extension](https://amerkashi.wordpress.com/2017/03/09/textutils-extension/)
 - [ListUtils Extension](https://amerkashi.wordpress.com/2017/03/05/shuffling-ordering-lists/)
+- [Rating Bar Extension](http://community.appybuilder.com/t/ratingbar-extension/214?u=conor)
+- [Dynamic Components Extension](http://community.appybuilder.com/t/extension-dynamiccomponent-extension/859?u=conor)
 
 <hr />
 
@@ -158,6 +195,20 @@ The following list is provided for reference only and all extensions are  subjec
 
 <hr />
 
+### [ColinTree Extensions](https://github.com/OpenSourceAIX)
+
+- [System Language Extension](https://github.com/OpenSourceAIX/ColinTreeSysLang)
+- [Notifier Extension](https://github.com/OpenSourceAIX/ColinTreeNotifier)
+- [Math Extended Extension](https://github.com/OpenSourceAIX/ColinTreeMathExtended)
+- [Math Extension](https://github.com/OpenSourceAIX/ColinTreeMath)
+- [IMEI Extension](https://github.com/OpenSourceAIX/ColinTreeIMEI)
+- [Go Home Extension](https://github.com/OpenSourceAIX/ColinTreeGoHome)
+- [First Run Extension](https://github.com/OpenSourceAIX/ColinTreeFirstRun)
+- [TinyDB Editable Extension](https://github.com/OpenSourceAIX/TinyDBEditable)
+- [Vector Arithmetic Extension](https://github.com/OpenSourceAIX/VectorArithmetic)
+
+<hr />
+
 ### Others
 
 - [Client TCP Extension](https://groups.google.com/d/msg/mitappinventortest/OCzEZC4FpEU/sEVrCeXaCQAJ) - _by: Jean-Rodolphe Letertre_
@@ -166,7 +217,23 @@ The following list is provided for reference only and all extensions are  subjec
 - [Regular Expression Extension](https://community.thunkable.com/t/regular-expression-extension/3657) - _by: Kevin Kun_
 - [Simple Tools Extension](https://community.thunkable.com/t/simple-tools-extension/3724?=ILoveThunkable) - _by: ILoveThunkable_
 - [WebViewer Dialog Extension](https://community.thunkable.com/t/releasing-the-web-viewer-dialog-extension/3956?u=ILoveThunkable) - _by: ILoveThunkable_
-- [Countdown Extension](https://community.thunkable.com/t/countdown-extension/3730?u=LukeGackle) - _by: LukeGackle_
+- [Image Cropping Extension](https://community.thunkable.com/t/image-cropping-extension/4953?=ILoveThunkable) - _by: ILoveThunkable_
+- [Extended WebViewer Extension](https://community.thunkable.com/t/extended-web-viewer-extension/4564/35) - _by: ILoveThunkable and Sivagiri_Visakan_
+- [Image Base64 Extension](https://community.thunkable.com/t/image-to-base64-extension/4642/7?u=sivagiri_visakan) - _by: Sivagiri_Visakan_
+- [Sunrise/set Extension](https://community.thunkable.com/t/new-extension-sunset-rise-times/5066?u=marzukalhashimi) - _by: marzukalhashimi_
+- [Activity Starter Extension](https://groups.google.com/d/msg/mitappinventortest/IM9yDZDAm-Q/IcxUtvX2BQAJ) - _by: pepemont_
+- [Date Tools Extension](http://community.appybuilder.com/t/working-days-calculate-days-between-given-dates-and-exclude-specific-days-from-the-count/413?u=Gabryk) - _by: Gabryk_
+- [FinFunctions Extension](https://community.thunkable.com/t/new-little-and-first-extension/5525?u=Tiziano1960) - _by: Tiziano1960_
+- [Mp3 Metadata Extension](https://community.thunkable.com/t/metatag-per-file-mp3/6213/2?u=enaixpeend) - _by: enaixpeend_
+- [General Tools Extension](https://community.thunkable.com/t/my-first-extension-gtools/5662?u=Jerin_Jacob) - _by: Jerin_Jacob_
+- [PdfTools Extension](https://community.thunkable.com/t/simple-pdftools-extension/6115?u=Jerin_Jacob) - _by: Jerin_Jacob_
+- [Simple Web Server Extension](https://groups.google.com/d/msg/mitappinventortest/-tn-UY7YJGs/tpivqjkVCgAJ) - _by: Juan Antonio_
+- [Delete characters from a text Extension](https://groups.google.com/d/msg/mitappinventortest/qN6fuQPNVUQ/NS8X_F35AQAJ) - _by: Juan Antonio_
+- [Get all TinyDB Extension](https://groups.google.com/d/msg/mitappinventortest/7-zmkoNA47E/-iovL7GEBAAJ) - _by: Juan Antonio_
+- [Convert interger value to words Extension](https://groups.google.com/d/msg/mitappinventortest/IXXE2LFeA6Q/7B7BnuqaBgAJ) - _by: Juan Antonio_
+- [TinyDBX Extension](https://groups.google.com/d/msg/mitappinventortest/7n0CPHIfZSc/BoebXhvYCAAJ) - _by: Juan Antonio_
+- [Firebase Authentication Extension](https://community.thunkable.com/t/firebaseauth-update-new-features/6202?u=mirxtrem_apps) - _by: mirxtrem_apps_
+- [Facebook Login Extension](https://community.thunkable.com/t/facebook-login-extension/6462/10?u=mirxtrem_apps) - _by: mirxtrem_apps_
 
 ## How to Install an Extension {#how_to}
 
